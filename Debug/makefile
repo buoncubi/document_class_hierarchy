@@ -38,19 +38,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: DocumentHierarchy
+all: document_class_hierarchy
 
 # Tool invocations
-DocumentHierarchy: $(OBJS) $(USER_OBJS)
+document_class_hierarchy: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross G++ Linker'
-	g++  -o "DocumentHierarchy" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "document_class_hierarchy" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(C_DEPS)$(CPP_DEPS) DocumentHierarchy
+	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(OBJS)$(C_UPPER_DEPS)$(CXX_DEPS)$(C_DEPS)$(CPP_DEPS) document_class_hierarchy
 	-@echo ' '
 
 .PHONY: all clean dependents
