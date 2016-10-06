@@ -1,0 +1,106 @@
+\hypertarget{classparray_1_1StringPointerArray}{\section{parray\-:\-:String\-Pointer\-Array Class Reference}
+\label{classparray_1_1StringPointerArray}\index{parray\-::\-String\-Pointer\-Array@{parray\-::\-String\-Pointer\-Array}}
+}
+
+
+Inheritance diagram for parray\-:\-:String\-Pointer\-Array\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classparray_1_1StringPointerArray__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for parray\-:\-:String\-Pointer\-Array\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classparray_1_1StringPointerArray__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classparray_1_1StringPointerArray_a3dcc569f7833b31b26bb72570bdc7067}{\hyperlink{classparray_1_1StringPointerArray_a3dcc569f7833b31b26bb72570bdc7067}{String\-Pointer\-Array} ()}\label{classparray_1_1StringPointerArray_a3dcc569f7833b31b26bb72570bdc7067}
+
+\begin{DoxyCompactList}\small\item\em empty constructor, based on \hyperlink{classparray_1_1PointerArray_ab506b284822d1e013813579e06893797}{Pointer\-Array\-::\-Pointer\-Array()}. \end{DoxyCompactList}\item 
+\hypertarget{classparray_1_1StringPointerArray_ae31ac6c33c13c602d3cbee3ca4aed10c}{\hyperlink{classparray_1_1StringPointerArray_ae31ac6c33c13c602d3cbee3ca4aed10c}{String\-Pointer\-Array} (const int length)}\label{classparray_1_1StringPointerArray_ae31ac6c33c13c602d3cbee3ca4aed10c}
+
+\begin{DoxyCompactList}\small\item\em constructor a new array of given length, based on \hyperlink{classparray_1_1PointerArray_a4e39d7adf15e94c02dfe2662c181f0c6}{Pointer\-Array\-::\-Pointer\-Array( int)}. \end{DoxyCompactList}\item 
+\hypertarget{classparray_1_1StringPointerArray_a6566d7032d0c519b440220df77651345}{\hyperlink{classparray_1_1StringPointerArray_a6566d7032d0c519b440220df77651345}{String\-Pointer\-Array} (const \hyperlink{classparray_1_1StringPointerArray}{String\-Pointer\-Array} \&original)}\label{classparray_1_1StringPointerArray_a6566d7032d0c519b440220df77651345}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{Pointer\-Array\-::copy()} constructor, based on Pointer\-Array\-::\-Pointer\-Array( Pointer\-Array). \end{DoxyCompactList}\item 
+\hypertarget{classparray_1_1StringPointerArray_a66e413fa7aedbfe9b45c87d8641ea36e}{virtual \hyperlink{classparray_1_1StringPointerArray_a66e413fa7aedbfe9b45c87d8641ea36e}{$\sim$\-String\-Pointer\-Array} ()}\label{classparray_1_1StringPointerArray_a66e413fa7aedbfe9b45c87d8641ea36e}
+
+\begin{DoxyCompactList}\small\item\em empty destructor, it relies on the base implementation. \end{DoxyCompactList}\item 
+\hypertarget{classparray_1_1StringPointerArray_a5b79fa79d5aa75cd4572e7b87f6da25f}{virtual bool \hyperlink{classparray_1_1StringPointerArray_a5b79fa79d5aa75cd4572e7b87f6da25f}{add} (std\-::string to\-Add)}\label{classparray_1_1StringPointerArray_a5b79fa79d5aa75cd4572e7b87f6da25f}
+
+\begin{DoxyCompactList}\small\item\em overload the \hyperlink{classparray_1_1PointerArray_ae080aeced3af072006e4a609fdadb838}{Pointer\-Array\-::add()} method by call \hyperlink{classparray_1_1PointerArray_a6d4347a899d2783d23775957ad71f743}{resize} if the array is full (generate warning). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}{tester} ()
+\begin{DoxyCompactList}\small\item\em static method to test the behavior of a \hyperlink{classparray_1_1PointerArray}{Pointer\-Array} of strings. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classparray_1_1StringPointerArray_a17703cd98a2019970fccba1bc7e51c8e}{static void \hyperlink{classparray_1_1StringPointerArray_a17703cd98a2019970fccba1bc7e51c8e}{print\-Test\-Delitator} ()}\label{classparray_1_1StringPointerArray_a17703cd98a2019970fccba1bc7e51c8e}
+
+\begin{DoxyCompactList}\small\item\em prints a line to separe different tests used in \hyperlink{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}{tester()} function \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+It implements a dynamic array of (T=)string manager. \begin{DoxySeeAlso}{See Also}
+\hyperlink{classparray_1_1PointerArray}{Pointer\-Array} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}{\index{parray\-::\-String\-Pointer\-Array@{parray\-::\-String\-Pointer\-Array}!tester@{tester}}
+\index{tester@{tester}!parray::StringPointerArray@{parray\-::\-String\-Pointer\-Array}}
+\subsubsection[{tester}]{\setlength{\rightskip}{0pt plus 5cm}static void parray\-::\-String\-Pointer\-Array\-::tester (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}}\label{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}
+
+
+static method to test the behavior of a \hyperlink{classparray_1_1PointerArray}{Pointer\-Array} of strings. 
+
+Creates (pa0) new parray\-::\-String\-Point\-Array( const int) and populate with letters.
+
+String\-Pointer\-Array\-::remove( T) an element from pa0 and access the first char (\hyperlink{classparray_1_1PointerArray_aa009614c6819fe08b7eef78be4394dbc}{String\-Pointer\-Array\-::operator\mbox{[}$\,$\mbox{]}()}) after the manipulation.
+
+Creates (pa1) a new \#\-String\-Point\-Array() and set is size to be smaller than pa0.
+
+Populate (\hyperlink{classparray_1_1StringPointerArray_a5b79fa79d5aa75cd4572e7b87f6da25f}{String\-Pointer\-Array\-::add()}) pa1 with some elements.
+
+Make a comparison (\hyperlink{classparray_1_1PointerArray_a050d55aeebf51f02bf59d8352664528d}{String\-Pointer\-Array\-::operator==()}) between two \hyperlink{classparray_1_1StringPointerArray_a3dcc569f7833b31b26bb72570bdc7067}{String\-Pointer\-Array} (pa0 == pa1)
+
+Creates (pa2) a copy (\hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{String\-Pointer\-Array\-::copy()} and String\-Pointer\-Array(\-String\-Pointer\-Array)) of pa1.
+
+\hyperlink{classparray_1_1PointerArray_a13ae3b9b2118416351cc63bd456ecf73}{String\-Pointer\-Array\-::remove()} all its elements and makes a comparison.
+
+Adds two strings to pa2.
+
+Creates (pa3) a \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{copy()} of pa2 and remove the first element.
+
+Makes a comparison (pa3 == pa2) and \hyperlink{classparray_1_1PointerArray_a13883fc7ef994a50a83ae3f9ddc4db27}{pack()} pa2.
+
+\hyperlink{classparray_1_1PointerArray_a6d4347a899d2783d23775957ad71f743}{resize()} pa1 to be bigger and smaller. 
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{PointerArray_8cpp}{Pointer\-Array.\-cpp}\end{DoxyCompactItemize}

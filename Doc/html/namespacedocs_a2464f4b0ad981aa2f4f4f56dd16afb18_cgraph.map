@@ -1,0 +1,5 @@
+<map id="docs::operator&lt;&lt;" name="docs::operator&lt;&lt;">
+<area shape="rect" id="node2" href="$classdocs_1_1Document.html#a16db383045038b779eb489ad125ef02b" title="print the information of this object by listing all the data members. " alt="" coords="176,35,347,61"/>
+<area shape="rect" id="node3" href="$classdocs_1_1DocType.html#a4632fc57ed71ebb984aa8dd78017db03" title="returns the name of the type of the document and &quot;Invalid Type&quot; if unknown. " alt="" coords="395,5,567,32"/>
+<area shape="rect" id="node4" href="$classparray_1_1PointerArray.html#a4c6e34cad01f5f72dd6c5de917ed3a34" title="returns a description of the memory managed by this class " alt="" coords="412,57,551,98"/>
+</map>

@@ -1,0 +1,64 @@
+\hypertarget{PointerArray_8cpp}{\section{src/\-Pointer\-Array.cpp File Reference}
+\label{PointerArray_8cpp}\index{src/\-Pointer\-Array.\-cpp@{src/\-Pointer\-Array.\-cpp}}
+}
+
+
+The complete \hyperlink{namespaceparray}{parray} (parray\-::\-Pointer\-Array$<$\-T$>$) and \hyperlink{namespacepatch}{patch} names paces specification and implementation.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$sstream$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+Include dependency graph for Pointer\-Array.\-cpp\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{PointerArray_8cpp__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{PointerArray_8cpp__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classparray_1_1PointerArray}{parray\-::\-Pointer\-Array$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em This class describes a manager of a dynamic array of generic type T$\ast$. \end{DoxyCompactList}\item 
+class \hyperlink{classparray_1_1StringPointerArray}{parray\-::\-String\-Pointer\-Array}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacepatch}{patch}
+\begin{DoxyCompactList}\small\item\em to emulate C++11 and get to\-\_\-string translator \end{DoxyCompactList}\item 
+\hyperlink{namespaceparray}{parray}
+\begin{DoxyCompactList}\small\item\em it specify the dynamic array manager for a generic data T and a std\-::string specialisation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacepatch_a54d2400c78aef13e3748a87cd7c86ede}{{\footnotesize template$<$typename T $>$ }\\std\-::string \hyperlink{namespacepatch_a54d2400c78aef13e3748a87cd7c86ede}{patch\-::to\-\_\-string} (const T \&n)}\label{namespacepatch_a54d2400c78aef13e3748a87cd7c86ede}
+
+\begin{DoxyCompactList}\small\item\em returns the description of the parameter by using $<$$<$ operator on a fresh std\-::ostringstream \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespaceparray_ae12e5e44ecdf5808872ebdc05476e93f}{const std\-::string \hyperlink{namespaceparray_ae12e5e44ecdf5808872ebdc05476e93f}{parray\-::\-L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-I\-N\-F\-O} = \char`\"{} Pointer\-Array\-: \char`\"{}}\label{namespaceparray_ae12e5e44ecdf5808872ebdc05476e93f}
+
+\begin{DoxyCompactList}\small\item\em the debugging string to be appended on log head by this manager \end{DoxyCompactList}\item 
+\hypertarget{namespaceparray_ab57bc1fd35280f9304abbf9755598710}{const std\-::string \hyperlink{namespaceparray_ab57bc1fd35280f9304abbf9755598710}{parray\-::\-L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-T\-E\-S\-T} = \char`\"{}\textbackslash{}t\mbox{[}T\-E\-S\-T\mbox{]} \char`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-I\-N\-F\-O}\label{namespaceparray_ab57bc1fd35280f9304abbf9755598710}
+
+\begin{DoxyCompactList}\small\item\em the debugging string to be appended on log head by the \hyperlink{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}{String\-Pointer\-Array\-::tester()} \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The complete \hyperlink{namespaceparray}{parray} (parray\-::\-Pointer\-Array$<$\-T$>$) and \hyperlink{namespacepatch}{patch} names paces specification and implementation. \begin{DoxyAuthor}{Author}
+Buoncompagni Luca 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Sep 14, 2016
+\end{DoxyDate}
+It describes a common templated method to convert an object into a string (\hyperlink{namespacepatch_a54d2400c78aef13e3748a87cd7c86ede}{patch\-::to\-\_\-string()}). Also, it defines a templated manager to a dynamic array (\hyperlink{classparray_1_1PointerArray}{parray\-::\-Pointer\-Array}) as well as a specialisation that deal with arrays of string (\hyperlink{classparray_1_1StringPointerArray}{parray\-::\-String\-Pointer\-Array}). For the last, also a static method for behavior testing is provided (String\-Pointer\-Array\-::tester()). 

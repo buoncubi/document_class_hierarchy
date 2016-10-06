@@ -1,0 +1,93 @@
+\hypertarget{Document_8h}{\section{src/\-Document.h File Reference}
+\label{Document_8h}\index{src/\-Document.\-h@{src/\-Document.\-h}}
+}
+
+
+The complete Document Hierarchy namespce specification.  
+
+
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$list$>$}\\*
+{\ttfamily \#include \char`\"{}Pointer\-Array.\-cpp\char`\"{}}\\*
+Include dependency graph for Document.\-h\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=275pt]{Document_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{Document_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classdocs_1_1DocType}{docs\-::\-Doc\-Type}
+\item 
+class \hyperlink{classdocs_1_1Document}{docs\-::\-Document}
+\item 
+class \hyperlink{classdocs_1_1WebPage}{docs\-::\-Web\-Page}
+\item 
+class \hyperlink{classdocs_1_1Spreadsheet}{docs\-::\-Spreadsheet}
+\end{DoxyCompactItemize}
+\subsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespacedocs}{docs}
+\begin{DoxyCompactList}\small\item\em This namespace is used to collect all the document hierarchy classes and types. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75}{docs\-::\-Type} \{ \hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75ab5b85a2de45c75c8eb58ccb377a01543}{docs\-::\-D\-O\-C\-U\-M\-E\-N\-T}, 
+\hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75a1660685efab992a33bb802d68b4e8c13}{docs\-::\-W\-E\-B\-\_\-\-P\-A\-G\-E}, 
+\hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75a7c469773c8012b650a4db4d9f46e343a}{docs\-::\-S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T}
+ \}
+\begin{DoxyCompactList}\small\item\em Instances of document identifier values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacedocs_a4cf6dd6732c7e7ab7f7855e440485d89}{const std\-::string \hyperlink{namespacedocs_a4cf6dd6732c7e7ab7f7855e440485d89}{docs\-::\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-O\-C\-U\-M\-E\-N\-T\-\_\-\-T\-I\-T\-L\-E} = \char`\"{}Default Title\char`\"{}}\label{namespacedocs_a4cf6dd6732c7e7ab7f7855e440485d89}
+
+\begin{DoxyCompactList}\small\item\em The title, if not specified on \hyperlink{classdocs_1_1Document}{Document} construction. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_ae635b9481a61628036b5a97625856475}{const int \hyperlink{namespacedocs_ae635b9481a61628036b5a97625856475}{docs\-::\-D\-E\-F\-A\-U\-L\-T\-\_\-\-D\-O\-C\-U\-M\-E\-N\-T\-\_\-\-K\-W\-S\-I\-Z\-E} = 3}\label{namespacedocs_ae635b9481a61628036b5a97625856475}
+
+\begin{DoxyCompactList}\small\item\em The size, of key words if not specified on \hyperlink{classdocs_1_1Document}{Document} construction. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_a9bfb062436ca30729256c522cf54c111}{const std\-::string \hyperlink{namespacedocs_a9bfb062436ca30729256c522cf54c111}{docs\-::\-D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-E\-B\-P\-A\-G\-E\-\_\-\-U\-R\-L} = \char`\"{}www.\-defualt.\-com\char`\"{}}\label{namespacedocs_a9bfb062436ca30729256c522cf54c111}
+
+\begin{DoxyCompactList}\small\item\em The url, if not specified on \hyperlink{classdocs_1_1WebPage}{Web\-Page} construction. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_a966b8c0a825e3e04a2c667abefa97f41}{const int \hyperlink{namespacedocs_a966b8c0a825e3e04a2c667abefa97f41}{docs\-::\-D\-E\-F\-A\-U\-L\-T\-\_\-\-W\-E\-B\-P\-A\-G\-E\-\_\-\-T\-E\-X\-T\-S\-I\-Z\-E} = 10}\label{namespacedocs_a966b8c0a825e3e04a2c667abefa97f41}
+
+\begin{DoxyCompactList}\small\item\em The size of contents, if not specified on \hyperlink{classdocs_1_1WebPage}{Web\-Page} construction. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_aa40437dd2d0305c57f338406303a3f58}{const int \hyperlink{namespacedocs_aa40437dd2d0305c57f338406303a3f58}{docs\-::\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T\-\_\-\-C\-O\-L\-C\-N\-T} = 7}\label{namespacedocs_aa40437dd2d0305c57f338406303a3f58}
+
+\begin{DoxyCompactList}\small\item\em The number of columns, if not specified on \hyperlink{classdocs_1_1Spreadsheet}{Spreadsheet} construction. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_a7562daac15433871b1cc71ad74555032}{const int \hyperlink{namespacedocs_a7562daac15433871b1cc71ad74555032}{docs\-::\-D\-E\-F\-A\-U\-L\-T\-\_\-\-S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T\-\_\-\-R\-O\-W\-C\-N\-T} = 2}\label{namespacedocs_a7562daac15433871b1cc71ad74555032}
+
+\begin{DoxyCompactList}\small\item\em The number of rows, if not specified on \hyperlink{classdocs_1_1Spreadsheet}{Spreadsheet} construction. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_a88f8e41b03147cf4197261676999d12c}{const std\-::string \hyperlink{namespacedocs_a88f8e41b03147cf4197261676999d12c}{docs\-::\-T\-Y\-P\-E\-\_\-\-N\-A\-M\-E\-\_\-\-D\-O\-C\-U\-M\-E\-N\-T} = \char`\"{}\textbackslash{}\char`\"{}Document\textbackslash{}\char`\"{}\char`\"{}}\label{namespacedocs_a88f8e41b03147cf4197261676999d12c}
+
+\begin{DoxyCompactList}\small\item\em The name of the D\-O\-C\-U\-M\-E\-N\-T type values. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_ac41cf3635e22c3750deddd000fd4c34b}{const std\-::string \hyperlink{namespacedocs_ac41cf3635e22c3750deddd000fd4c34b}{docs\-::\-T\-Y\-P\-E\-\_\-\-N\-A\-M\-E\-\_\-\-W\-E\-B\-P\-A\-G\-E} = \char`\"{}\textbackslash{}\char`\"{}Web Page\textbackslash{}\char`\"{}\char`\"{}}\label{namespacedocs_ac41cf3635e22c3750deddd000fd4c34b}
+
+\begin{DoxyCompactList}\small\item\em The name of the W\-E\-B\-\_\-\-P\-A\-G\-E type values. \end{DoxyCompactList}\item 
+\hypertarget{namespacedocs_a3f58481f03c01b3da04828585d14ff77}{const std\-::string \hyperlink{namespacedocs_a3f58481f03c01b3da04828585d14ff77}{docs\-::\-T\-Y\-P\-E\-\_\-\-N\-A\-M\-E\-\_\-\-S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T} = \char`\"{}\textbackslash{}\char`\"{}Spreadsheet\textbackslash{}\char`\"{}\char`\"{}}\label{namespacedocs_a3f58481f03c01b3da04828585d14ff77}
+
+\begin{DoxyCompactList}\small\item\em The name of the S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T type values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The complete Document Hierarchy namespce specification. \begin{DoxyAuthor}{Author}
+Buoncompagni Luca 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Sep 14, 2016
+\end{DoxyDate}
+This is a test implementation of a Document class, which contains an array of key words and a title and two derived classes. A Web\-Page representation, with an url and an array of lines contents (\begin{DoxySeeAlso}{See Also}
+Pointer\-Array), as well as a Spreadsheet, with related number of column and raw.
+
+Pointer\-Array 
+\end{DoxySeeAlso}

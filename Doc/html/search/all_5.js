@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['get',['get',['../classparray_1_1PointerArray.html#a97dbb10226a33da7823685fafe609194',1,'parray::PointerArray']]],
+  ['getarray',['getArray',['../classparray_1_1PointerArray.html#ac2fc7fd12afb0d8fa908ad02a3e39d28',1,'parray::PointerArray']]],
+  ['getcnt',['getCnt',['../classparray_1_1PointerArray.html#ac6ad9597cf9fb62857a143e3c241223e',1,'parray::PointerArray']]],
+  ['getcoloumncnt',['getColoumnCnt',['../classdocs_1_1Spreadsheet.html#a9a89463f0b79318f6ead47bb4d00a7b4',1,'docs::Spreadsheet']]],
+  ['getcontents',['getContents',['../classdocs_1_1WebPage.html#ad2efbd306365a023f52c5c93caa4e638',1,'docs::WebPage']]],
+  ['getcontentsarray',['getContentsArray',['../classdocs_1_1WebPage.html#a7bebbf9d6f6ed1d5d37807ce14a34b2b',1,'docs::WebPage']]],
+  ['getcontentssize',['getContentsSize',['../classdocs_1_1WebPage.html#ae58ebf97dc7208acbd7b86b267f3b699',1,'docs::WebPage']]],
+  ['getkeywords',['getKeyWords',['../classdocs_1_1Document.html#a500da2818240e2b29c1e4510b8724f4f',1,'docs::Document']]],
+  ['getkeywordsarray',['getKeyWordsArray',['../classdocs_1_1Document.html#a9b7139734ec394970161695e2e06c263',1,'docs::Document']]],
+  ['getkeywordssize',['getKeyWordsSize',['../classdocs_1_1Document.html#a0af7d404eb347f27bc4e42b085aaa038',1,'docs::Document']]],
+  ['getname',['getName',['../classdocs_1_1DocType.html#a4632fc57ed71ebb984aa8dd78017db03',1,'docs::DocType']]],
+  ['getrowcnt',['getRowCnt',['../classdocs_1_1Spreadsheet.html#a25339a2bc1be68500a907969d15b02d0',1,'docs::Spreadsheet']]],
+  ['getsize',['getSize',['../classparray_1_1PointerArray.html#ac676a9ef1cc04a9aab5f9b744142bf61',1,'parray::PointerArray']]],
+  ['gettitle',['getTitle',['../classdocs_1_1Document.html#a06b90f239984c69784c877d670943fb5',1,'docs::Document']]],
+  ['gettype',['getType',['../classdocs_1_1DocType.html#a1a7221ca7a1b44b1b115c81c469f6f75',1,'docs::DocType::getType()'],['../classdocs_1_1Document.html#a5626bdb2863afb9c3dd363fc5cc1bbde',1,'docs::Document::getType()']]],
+  ['geturl',['getUrl',['../classdocs_1_1WebPage.html#aaeac2076cad36b3dd2c3ea090e4712e0',1,'docs::WebPage']]]
+];

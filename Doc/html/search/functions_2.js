@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['doctype',['DocType',['../classdocs_1_1DocType.html#a0ca0927d1a4d050487d9d14069afc050',1,'docs::DocType']]],
+  ['document',['Document',['../classdocs_1_1Document.html#ace8d18f691181e1676a6ca5207da336b',1,'docs::Document::Document(std::string title=DEFAULT_DOCUMENT_TITLE, int keyWordSize=DEFAULT_DOCUMENT_KWSIZE)'],['../classdocs_1_1Document.html#aa9c1a4e9b6aab58e8e28b16a2888e601',1,'docs::Document::Document(const parray::StringPointerArray &amp;kws, std::string title=DEFAULT_DOCUMENT_TITLE)'],['../classdocs_1_1Document.html#ad65291ea47b0be5a29d2ba13868a8a7c',1,'docs::Document::Document(const Document &amp;original)'],['../classdocs_1_1Document.html#a9f0b2c4c1a3e3344f374330399969e90',1,'docs::Document::Document(const DocType typeId, const std::string title=DEFAULT_DOCUMENT_TITLE, const int keyWordSize=DEFAULT_DOCUMENT_KWSIZE)'],['../classdocs_1_1Document.html#a4a76d0cee2709582e4b9f3b5b8db0277',1,'docs::Document::Document(const DocType typeId, const parray::StringPointerArray &amp;kws, const std::string title=DEFAULT_DOCUMENT_TITLE)']]]
+];

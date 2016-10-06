@@ -1,0 +1,48 @@
+\hypertarget{classdocs_1_1DocType}{\section{docs\-:\-:Doc\-Type Class Reference}
+\label{classdocs_1_1DocType}\index{docs\-::\-Doc\-Type@{docs\-::\-Doc\-Type}}
+}
+
+
+{\ttfamily \#include $<$Document.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classdocs_1_1DocType_a0ca0927d1a4d050487d9d14069afc050}{\hyperlink{classdocs_1_1DocType_a0ca0927d1a4d050487d9d14069afc050}{Doc\-Type} (\hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75}{Type} \hyperlink{classdocs_1_1DocType_a58ced824f3508e8f8d73b1ff1bfefc0a}{t})}\label{classdocs_1_1DocType_a0ca0927d1a4d050487d9d14069afc050}
+
+\begin{DoxyCompactList}\small\item\em constructors must provide a final type to be attached on document constructors. \end{DoxyCompactList}\item 
+\hypertarget{classdocs_1_1DocType_a931f25a0445c46eb7fba5c515124b728}{\hyperlink{classdocs_1_1DocType_a931f25a0445c46eb7fba5c515124b728}{$\sim$\-Doc\-Type} ()}\label{classdocs_1_1DocType_a931f25a0445c46eb7fba5c515124b728}
+
+\begin{DoxyCompactList}\small\item\em empty since all instances of this class are suppose to be constant. \end{DoxyCompactList}\item 
+\hypertarget{classdocs_1_1DocType_a1a7221ca7a1b44b1b115c81c469f6f75}{const \hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75}{Type} \hyperlink{classdocs_1_1DocType_a1a7221ca7a1b44b1b115c81c469f6f75}{get\-Type} () const }\label{classdocs_1_1DocType_a1a7221ca7a1b44b1b115c81c469f6f75}
+
+\begin{DoxyCompactList}\small\item\em returns the final type I\-D. \end{DoxyCompactList}\item 
+\hypertarget{classdocs_1_1DocType_a4632fc57ed71ebb984aa8dd78017db03}{const std\-::string \hyperlink{classdocs_1_1DocType_a4632fc57ed71ebb984aa8dd78017db03}{get\-Name} () const }\label{classdocs_1_1DocType_a4632fc57ed71ebb984aa8dd78017db03}
+
+\begin{DoxyCompactList}\small\item\em returns the name of the type of the document and \char`\"{}\-Invalid Type\char`\"{} if unknown. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classdocs_1_1DocType_a58ced824f3508e8f8d73b1ff1bfefc0a}{const \hyperlink{namespacedocs_a150efca62822b8ab62a5afabe299bf75}{Type} \hyperlink{classdocs_1_1DocType_a58ced824f3508e8f8d73b1ff1bfefc0a}{t}}\label{classdocs_1_1DocType_a58ced824f3508e8f8d73b1ff1bfefc0a}
+
+\begin{DoxyCompactList}\small\item\em the member type assign on constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classdocs_1_1DocType_ab7f2e778c65c36835a714e77aa2c3a09}{std\-::ostream \& \hyperlink{classdocs_1_1DocType_ab7f2e778c65c36835a714e77aa2c3a09}{operator$<$$<$} (std\-::ostream \&st, const \hyperlink{classdocs_1_1DocType}{Doc\-Type} \&\hyperlink{classdocs_1_1DocType_a58ced824f3508e8f8d73b1ff1bfefc0a}{t})}\label{classdocs_1_1DocType_ab7f2e778c65c36835a714e77aa2c3a09}
+
+\begin{DoxyCompactList}\small\item\em prints the \hyperlink{classdocs_1_1DocType_a4632fc57ed71ebb984aa8dd78017db03}{get\-Name()} result. \end{DoxyCompactList}\item 
+\hypertarget{classdocs_1_1DocType_aa68c01dc0d9b0494723b223bf52a6acf}{bool \hyperlink{classdocs_1_1DocType_aa68c01dc0d9b0494723b223bf52a6acf}{operator==} (const \hyperlink{classdocs_1_1DocType}{Doc\-Type} \&c1, const \hyperlink{classdocs_1_1DocType}{Doc\-Type} \&c2)}\label{classdocs_1_1DocType_aa68c01dc0d9b0494723b223bf52a6acf}
+
+\begin{DoxyCompactList}\small\item\em return the comparison of \hyperlink{classdocs_1_1DocType_a4632fc57ed71ebb984aa8dd78017db03}{get\-Name()} methods. \end{DoxyCompactList}\item 
+\hypertarget{classdocs_1_1DocType_a6f7b8c51d3dc0ec95808119766eb8010}{bool \hyperlink{classdocs_1_1DocType_a6f7b8c51d3dc0ec95808119766eb8010}{operator!=} (const \hyperlink{classdocs_1_1DocType}{Doc\-Type} \&c1, const \hyperlink{classdocs_1_1DocType}{Doc\-Type} \&c2)}\label{classdocs_1_1DocType_a6f7b8c51d3dc0ec95808119766eb8010}
+
+\begin{DoxyCompactList}\small\item\em return the negation of the comparison of \hyperlink{classdocs_1_1DocType_a4632fc57ed71ebb984aa8dd78017db03}{get\-Name()}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class containing a Type value. It allows to print the name of the of type of document and at the same time make an easy comparison or perhaps a searching rule. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/\hyperlink{Document_8h}{Document.\-h}\end{DoxyCompactItemize}
