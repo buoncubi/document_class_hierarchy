@@ -3,7 +3,7 @@
  * @author Buoncompagni Luca
  * @date Sep 14, 2016
  *
- * @brief The complete #parray (parray#PointerArray<T>) and #patch names paces specification and implementation.
+ * @brief The complete #parray (parray#PointerArray<T>) and #patch names paces definition.
  *
  * It describes a common templated method to convert an object into a string (patch#to_string()).
  * Also, it defines a templated manager to a dynamic array (parray#PointerArray) as well as a
@@ -42,26 +42,26 @@ namespace parray{
 	 * \brief This class describes a manager of a dynamic array of generic type T*.
 	 *
 	 * It manage manipulation, creation, copy and destruction, as well as basic operator overloading.
-	 * In details, the array is specified by a pointer to the head, a size integer and a cnt meaning
+	 * In details, the array is specified by: a pointer to the head, a size integer and a cnt meaning
 	 * the number of elements currently in the array.
 	 */
 	template < class T> class PointerArray{
 		public:
 			/// does not initialise the set and invalidates the counter (generates also warning log to advertise the call of #setSize())
 			PointerArray(){
-				std::cout << "[WARNING]" << LOG_HEADER_INFO << "Contract empty object. First of all, call setSize(..)" << std::endl;
+				std::cout << "[WARNING]" << LOG_HEADER_INFO << "Construct empty object. First of all, call setSize(..)" << std::endl;
 				set = 0;
 				size = -1;
 				cnt = -1;
 			}
 			/// create a new empty array of specified size
 			PointerArray( const int length){
-				std::cout << "[INFO]" << LOG_HEADER_INFO << "Contract a new array with size: " << length << std::endl;
+				std::cout << "[INFO]" << LOG_HEADER_INFO << "Construct a new array with size: " << length << std::endl;
 				init( length);
 			}
 			/// #copy() constructors
 			PointerArray( const PointerArray<T>& original){
-				std::cout << "[INFO]" << LOG_HEADER_INFO << "Contract a copy of: " << original << std::endl;
+				std::cout << "[INFO]" << LOG_HEADER_INFO << "Construct a copy of: " << original << std::endl;
 				copy( original);
 			}
 			/// destructors, invalidate counter, pointer and clear memory. Logs:  "deleting", for debugging purposes.
@@ -268,7 +268,7 @@ namespace parray{
 
 
 	/**
-	 * It implements a dynamic array of (T=)string manager.
+	 * \brief It implements a #PointerArray with a string parameter (T).
 	 * @see PointerArray
 	 */
 	class StringPointerArray : public PointerArray< std::string>{
@@ -299,7 +299,7 @@ namespace parray{
 				int n0 = 10;
 				int cnt0 = 5;
 
-				/// Creates (pa0) new parray#StringPointArray( const int) and populate with letters.
+				/// Creates (pa0) new StringPointerArray( const int) and populate with letters.
 				StringPointerArray pa0( n0);
 				for( int i = 0; i < cnt0; i++)
 					pa0.add( std::string( 1, 'A' + i)); // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -310,35 +310,36 @@ namespace parray{
 				std::cout << LOG_HEADER_TEST << "remove the first element: \t\t\t\t pa0 = ";
 				pa0.remove( std::string( 1, 'A'));
 				std::cout << pa0 << std::endl;
-				std::cout << LOG_HEADER_TEST << "so the first element of pa0 now is: " << pa0[0] << std::endl;
+				std::cout << LOG_HEADER_TEST << "so the first element of pa0 now is: pa[0]=" << pa0[0] << std::endl;
 				printTestDelitator(); // "----------------------------"
 
-				/// Creates (pa1) a new #StringPointArray() and set is size to be smaller than pa0.
+				/// Creates (pa1) a new #StringPointerArray() and set is size to be smaller than pa0.
 				std::cout << LOG_HEADER_TEST << "create an array of unknown size..." << std::endl;
 				StringPointerArray pa1;
 				int n1 = n0 - 3;
 				int cnt1 = cnt0 - 1;
 				pa1.setSize( n1);
-				std::cout << LOG_HEADER_TEST << "set the size to " << n1 << " with " << cnt1 << " elements: \t\t\t pa1 = ";
+				std::cout << LOG_HEADER_TEST << "set the size to " << n1 << " and add " << cnt1 << " elements and pack(): \t\t pa1 = ";
 				/// Populate (StringPointerArray::add()) pa1 with some elements.
 				for( int i = 0; i < cnt1; i++)
 					pa1.add( std::string( 1, 'B' + i));
+				pa1.pack();
 				std::cout << pa1 << std::endl;
 				printTestDelitator(); // "----------------------------"
 
 				/// Make a comparison (StringPointerArray#operator==()) between two #StringPointerArray (pa0 == pa1)
 				bool comparison1 = ( pa0 == pa1);
-				std::cout << LOG_HEADER_TEST << "are pa0 and pa1 equal? " << ( comparison1 ? "Yes." : "No.") << std::endl;
+				std::cout << LOG_HEADER_TEST << "are pa0 and pa1 equal? (pa0==pa1?)" << ( comparison1 ? "Yes." : "No.") << std::endl;
 				printTestDelitator(); // "----------------------------"
 
 				/// Creates (pa2) a copy (StringPointerArray#copy() and StringPointerArray(StringPointerArray)) of pa1.
 				StringPointerArray pa2;
 				pa2 = pa1; //pa2.copy( pa1);
-				std::cout << LOG_HEADER_TEST << "copy pa1 in pa2 \t\t\t\t\t pa2 = " << pa2 << std::endl;
+				std::cout << LOG_HEADER_TEST << "copy pa1 in pa2 \t\t\t\t\t\t pa2 = " << pa2 << std::endl;
 				/// StringPointerArray#remove() all its elements and makes a comparison.
 				pa2.clear();
 				std::cout << LOG_HEADER_TEST << "clear pa2 \t\t\t\t\t\t pa2 = " << pa2 << std::endl;
-				std::cout << LOG_HEADER_TEST << "is pa2 empty? " << ( !pa2 ? "Yes." : "No.") << " Is pa1 empty? " << ( !pa1 ? "Yes." : "No.") << " (pa1 = " << pa1 << ")"<< std::endl;
+				std::cout << LOG_HEADER_TEST << "is pa2 empty? " << ( !pa2 ? "Yes." : "No.") << " Is pa1 empty? " << ( !pa1 ? "Yes." : "No.") << "\t\t\t pa1 = " << pa1 << std::endl;
 				printTestDelitator(); // "----------------------------"
 
 				/// Adds two strings to pa2.
@@ -359,10 +360,10 @@ namespace parray{
 				/// #resize() pa1 to be bigger and smaller.
 				int res1 = 20;
 				pa1.resize( res1);
-				std::cout << LOG_HEADER_TEST << "resize pa1 to " << res1 << " \t\t\t\t\t pa1 = " << pa1 << std::endl;
+				std::cout << LOG_HEADER_TEST << "resize pa1 to " << res1 << " \t\t\t\t\t\t pa1 = " << pa1 << std::endl;
 				int res2 = 2;
 				pa1.resize( res2);
-				std::cout << LOG_HEADER_TEST << "resize pa1 to " << res2 << " \t\t\t\t\t pa1 = " << pa1 << std::endl;
+				std::cout << LOG_HEADER_TEST << "resize pa1 to " << res2 << " \t\t\t\t\t\t pa1 = " << pa1 << std::endl;
 			}
 
 		private:

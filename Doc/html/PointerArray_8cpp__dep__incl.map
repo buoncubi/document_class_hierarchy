@@ -1,7 +1,7 @@
 <map id="src/PointerArray.cpp" name="src/PointerArray.cpp">
 <area shape="rect" id="node2" href="$Document_8h.html" title="The complete Document Hierarchy namespce specification. " alt="" coords="133,80,248,107"/>
-<area shape="rect" id="node4" href="$main_8cpp.html" title="implements a main function to check the behavior of the #plist template class and docs hierarchy..." alt="" coords="5,155,101,181"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="implements a main function to check the behavior of the parray template and docs hierarchy. " alt="" coords="5,155,101,181"/>
 <area shape="rect" id="node3" href="$Document_8cpp.html" title="implementation of the Document base class. " alt="" coords="126,155,255,181"/>
-<area shape="rect" id="node5" href="$Spreadsheet_8cpp.html" title="implementation of the Spreadsheet (extending) Document class. " alt="" coords="279,155,421,181"/>
-<area shape="rect" id="node6" href="$WebPage_8cpp.html" title="implementation of the WebBase (extending) Document class. " alt="" coords="446,155,572,181"/>
+<area shape="rect" id="node5" href="$Spreadsheet_8cpp.html" title="implementation of the docs::Spreadsheet class. " alt="" coords="279,155,421,181"/>
+<area shape="rect" id="node6" href="$WebPage_8cpp.html" title="implementation of the docs::WebPage class. " alt="" coords="446,155,572,181"/>
 </map>

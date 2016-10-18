@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.23)  6 OCT 2016 18:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.23)  18 OCT 2016 13:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1147,9 +1147,9 @@ File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 12.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 27.
+(Font)              scaled to size 8.09995pt on input line 13.
 [9]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 75.
@@ -1168,55 +1168,50 @@ LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <10> not available
 (Font)              Font shape `T1/phv/bc/sl' tried instead on input line 101.
 LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
 (Font)              scaled to size 8.99994pt on input line 101.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 103.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 103.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-<namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf, id=458, 624.3325pt
+
+<namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf, id=470, 624.3325pt
  x 100.375pt>
 File: namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf Graphic file (
 type pdf)
  <use namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf>
 Package pdftex.def Info: namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph
-.pdf used on input line 112.
+.pdf used on input line 108.
 (pdftex.def)             Requested size: 350.0pt x 56.27086pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 120.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 124.
+(hyperref)                removing `math shift' on input line 120.
 
 
-<namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf, id=459, 503.8825pt
+<namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf, id=471, 503.8825pt
  x 149.55875pt>
 File: namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf Graphic file (
 type pdf)
 
 <use namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf>
 Package pdftex.def Info: namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph
-.pdf used on input line 135.
+.pdf used on input line 127.
 (pdftex.def)             Requested size: 350.0pt x 103.88483pt.
  [10 <./namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf>]
-<namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf, id=480, 499.8675pt
+<namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf, id=492, 499.8675pt
  x 100.375pt>
 File: namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf Graphic file (
 type pdf)
  <use namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf>
 Package pdftex.def Info: namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph
-.pdf used on input line 158.
+.pdf used on input line 146.
 (pdftex.def)             Requested size: 350.0pt x 70.28345pt.
 ) (./namespaceparray.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
@@ -1238,49 +1233,63 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
 ) [12]
 Chapter 6.
-(./classdocs_1_1DocType.tex) (./classdocs_1_1Document.tex [13
+(./classdocs_1_1DocType.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) [13
 
 ]
-<classdocs_1_1Document__inherit__graph.pdf, id=551, 283.0575pt x 156.585pt>
+Underfull \hbox (badness 10000) detected at line 51
+[][][]
+ []
+
+) (./classdocs_1_1Document.tex
+<classdocs_1_1Document__inherit__graph.pdf, id=572, 283.0575pt x 156.585pt>
 File: classdocs_1_1Document__inherit__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Document__inherit__graph.pdf>
 Package pdftex.def Info: classdocs_1_1Document__inherit__graph.pdf used on inpu
-t line 14.
+t line 19.
 (pdftex.def)             Requested size: 282.0pt x 156.01357pt.
 
-<classdocs_1_1Document__coll__graph.pdf, id=552, 310.15875pt x 238.8925pt>
+<classdocs_1_1Document__coll__graph.pdf, id=573, 310.15875pt x 238.8925pt>
 File: classdocs_1_1Document__coll__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Document__coll__graph.pdf>
 Package pdftex.def Info: classdocs_1_1Document__coll__graph.pdf used on input l
-ine 23.
+ine 28.
 (pdftex.def)             Requested size: 309.0pt x 237.99883pt.
- [14 <./classdocs_1_1Document__inherit__graph.pdf> <./classdocs_1_1Document__co
-ll__graph.pdf
 
-pdfTeX warning: pdflatex (file ./classdocs_1_1Document__coll__graph.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->] [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./classdocs_1_1Document__inherit__graph.pdf>] [15 <./classdocs_1_1Documen
+t__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 118
+[][][]
+ []
+
 
 LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 121.
+(Font)              using `T1/pcr/m/n' instead on input line 133.
+
+[16]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 137.
+(hyperref)                removing `math shift' on input line 145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 137.
+(hyperref)                removing `math shift' on input line 145.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 137.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 137.
+(hyperref)                removing `math shift' on input line 145.
 
 ) (./classparray_1_1PointerArray.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
@@ -1304,108 +1313,127 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-<classparray_1_1PointerArray__coll__graph.pdf, id=673, 208.78pt x 168.63pt>
+<classparray_1_1PointerArray__coll__graph.pdf, id=706, 208.78pt x 168.63pt>
 File: classparray_1_1PointerArray__coll__graph.pdf Graphic file (type pdf)
 
 <use classparray_1_1PointerArray__coll__graph.pdf>
 Package pdftex.def Info: classparray_1_1PointerArray__coll__graph.pdf used on i
 nput line 15.
 (pdftex.def)             Requested size: 208.0pt x 168.00946pt.
- [16] [17 <./classparray_1_1PointerArray__coll__graph.pdf>] [18]) (./classdocs_
-1_1Spreadsheet.tex
-<classdocs_1_1Spreadsheet__inherit__graph.pdf, id=788, 176.66pt x 156.585pt>
+ [17 <./classparray_1_1PointerArray__coll__graph.pdf>] [18]) (./classdocs_1_1Sp
+readsheet.tex
+<classdocs_1_1Spreadsheet__inherit__graph.pdf, id=804, 176.66pt x 156.585pt>
 File: classdocs_1_1Spreadsheet__inherit__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Spreadsheet__inherit__graph.pdf>
 Package pdftex.def Info: classdocs_1_1Spreadsheet__inherit__graph.pdf used on i
-nput line 14.
+nput line 19.
 (pdftex.def)             Requested size: 176.0pt x 156.00162pt.
 
-<classdocs_1_1Spreadsheet__coll__graph.pdf, id=789, 310.15875pt x 297.11pt>
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+ [19]
+<classdocs_1_1Spreadsheet__coll__graph.pdf, id=818, 310.15875pt x 297.11pt>
 File: classdocs_1_1Spreadsheet__coll__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Spreadsheet__coll__graph.pdf>
 Package pdftex.def Info: classdocs_1_1Spreadsheet__coll__graph.pdf used on inpu
-t line 23.
+t line 28.
 (pdftex.def)             Requested size: 309.0pt x 295.99855pt.
+ [20 <./classdocs_1_1Spreadsheet__inherit__graph.pdf> <./classdocs_1_1Spreadshe
+et__coll__graph.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+pdfTeX warning: pdflatex (file ./classdocs_1_1Spreadsheet__coll__graph.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 85
+[][][]
+ []
 
- [19 <./classdocs_1_1Spreadsheet__inherit__graph.pdf>] [20 <./classdocs_1_1Spre
-adsheet__coll__graph.pdf>]) (./classparray_1_1StringPointerArray.tex
-<classparray_1_1StringPointerArray__inherit__graph.pdf, id=879, 208.78pt x 168.
+) (./classparray_1_1StringPointerArray.tex
+<classparray_1_1StringPointerArray__inherit__graph.pdf, id=900, 208.78pt x 168.
 63pt>
 File: classparray_1_1StringPointerArray__inherit__graph.pdf Graphic file (type 
 pdf)
  <use classparray_1_1StringPointerArray__inherit__graph.pdf>
 Package pdftex.def Info: classparray_1_1StringPointerArray__inherit__graph.pdf 
-used on input line 10.
+used on input line 15.
 (pdftex.def)             Requested size: 208.0pt x 168.00946pt.
-
-<classparray_1_1StringPointerArray__coll__graph.pdf, id=880, 208.78pt x 168.63p
+ [21]
+<classparray_1_1StringPointerArray__coll__graph.pdf, id=917, 208.78pt x 168.63p
 t>
 File: classparray_1_1StringPointerArray__coll__graph.pdf Graphic file (type pdf
 )
  <use classparray_1_1StringPointerArray__coll__graph.pdf>
 Package pdftex.def Info: classparray_1_1StringPointerArray__coll__graph.pdf use
-d on input line 19.
+d on input line 24.
 (pdftex.def)             Requested size: 208.0pt x 168.00946pt.
+ [22 <./classparray_1_1StringPointerArray__inherit__graph.pdf> <./classparray_1
+_1StringPointerArray__coll__graph.pdf
 
-Underfull \vbox (badness 5260) has occurred while \output is active []
-
- [21 <./classparray_1_1StringPointerArray__inherit__graph.pdf>]
-Underfull \hbox (badness 10000) detected at line 54
+pdfTeX warning: pdflatex (file ./classparray_1_1StringPointerArray__coll__graph
+.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 61
 [][][]
  []
 
-[22 <./classparray_1_1StringPointerArray__coll__graph.pdf>]
+
 <classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgraph.pdf
-, id=940, 716.6775pt x 438.63875pt>
+, id=968, 716.6775pt x 438.63875pt>
 File: classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgrap
 h.pdf Graphic file (type pdf)
 
 <use classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgraph
 .pdf>
 Package pdftex.def Info: classparray_1_1StringPointerArray_abfac13570bec8c88311
-714d19ddea59b_cgraph.pdf used on input line 97.
+714d19ddea59b_cgraph.pdf used on input line 104.
 (pdftex.def)             Requested size: 350.0pt x 214.2187pt.
-) (./classdocs_1_1WebPage.tex
-<classdocs_1_1WebPage__inherit__graph.pdf, id=942, 168.63pt x 156.585pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23])
+(./classdocs_1_1WebPage.tex
+<classdocs_1_1WebPage__inherit__graph.pdf, id=979, 168.63pt x 156.585pt>
 File: classdocs_1_1WebPage__inherit__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1WebPage__inherit__graph.pdf>
 Package pdftex.def Info: classdocs_1_1WebPage__inherit__graph.pdf used on input
- line 14.
+ line 19.
 (pdftex.def)             Requested size: 168.0pt x 156.004pt.
 
-Underfull \vbox (badness 6961) has occurred while \output is active []
-
- [23 <./classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgr
-aph.pdf>]
-<classdocs_1_1WebPage__coll__graph.pdf, id=953, 310.15875pt x 297.11pt>
+<classdocs_1_1WebPage__coll__graph.pdf, id=980, 310.15875pt x 297.11pt>
 File: classdocs_1_1WebPage__coll__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1WebPage__coll__graph.pdf>
 Package pdftex.def Info: classdocs_1_1WebPage__coll__graph.pdf used on input li
-ne 23.
+ne 28.
 (pdftex.def)             Requested size: 309.0pt x 295.99855pt.
- [24 <./classdocs_1_1WebPage__inherit__graph.pdf> <./classdocs_1_1WebPage__coll
-__graph.pdf
 
-pdfTeX warning: pdflatex (file ./classdocs_1_1WebPage__coll__graph.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]) [25] [26
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [24 <./classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgr
+aph.pdf> <./classdocs_1_1WebPage__inherit__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classdocs_1_1WebPage__inherit__graph.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] [25 <./classdocs_1_1WebPage__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 92
+[][][]
+ []
+
+) [26]
 Chapter 7.
 (./Document_8cpp.tex
-<Document_8cpp__incl.pdf, id=1049, 278.03876pt x 269.005pt>
+<Document_8cpp__incl.pdf, id=1086, 278.03876pt x 269.005pt>
 File: Document_8cpp__incl.pdf Graphic file (type pdf)
 
 <use Document_8cpp__incl.pdf>
 Package pdftex.def Info: Document_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 277.0pt x 268.00278pt.
- [27 <./Document_8cpp__incl.pdf>]
+ [27
+
+ <./Document_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 34
 [][][]
  []
@@ -1420,14 +1448,14 @@ Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
-) (./Document_8h.tex <Document_8h__incl.pdf, id=1069, 276.03125pt x 212.795pt>
+) (./Document_8h.tex <Document_8h__incl.pdf, id=1105, 276.03125pt x 212.795pt>
 File: Document_8h__incl.pdf Graphic file (type pdf)
 
 <use Document_8h__incl.pdf>
 Package pdftex.def Info: Document_8h__incl.pdf used on input line 16.
 (pdftex.def)             Requested size: 275.0pt x 212.02167pt.
 
-<Document_8h__dep__incl.pdf, id=1070, 506.89375pt x 156.585pt>
+<Document_8h__dep__incl.pdf, id=1106, 506.89375pt x 156.585pt>
 File: Document_8h__dep__incl.pdf Graphic file (type pdf)
 
 <use Document_8h__dep__incl.pdf>
@@ -1506,7 +1534,7 @@ Underfull \hbox (badness 10000) detected at line 89
 [][][]
  []
 
-) (./main_8cpp.tex <main_8cpp__incl.pdf, id=1120, 313.17pt x 269.005pt>
+) (./main_8cpp.tex <main_8cpp__incl.pdf, id=1161, 313.17pt x 269.005pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 
 <use main_8cpp__incl.pdf>
@@ -1527,33 +1555,39 @@ Underfull \hbox (badness 10000) detected at line 37
 [][][]
  []
 
-
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1137, 790.955pt x 4
-38.63875pt>
+[31]
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1188, 815.045pt x 6
+67.49374pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
- used on input line 70.
-(pdftex.def)             Requested size: 350.0pt x 194.0993pt.
+ used on input line 107.
+(pdftex.def)             Requested size: 350.0pt x 286.63986pt.
 )
 (./PointerArray_8cpp.tex
-<PointerArray_8cpp__incl.pdf, id=1140, 263.98625pt x 156.585pt>
+<PointerArray_8cpp__incl.pdf, id=1191, 263.98625pt x 156.585pt>
 File: PointerArray_8cpp__incl.pdf Graphic file (type pdf)
 
 <use PointerArray_8cpp__incl.pdf>
 Package pdftex.def Info: PointerArray_8cpp__incl.pdf used on input line 16.
 (pdftex.def)             Requested size: 263.0pt x 156.00879pt.
- [31 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>]
-<PointerArray_8cpp__dep__incl.pdf, id=1152, 506.89375pt x 212.795pt>
+
+<PointerArray_8cpp__dep__incl.pdf, id=1192, 506.89375pt x 212.795pt>
 File: PointerArray_8cpp__dep__incl.pdf Graphic file (type pdf)
 
 <use PointerArray_8cpp__dep__incl.pdf>
 Package pdftex.def Info: PointerArray_8cpp__dep__incl.pdf used on input line 23
 .
 (pdftex.def)             Requested size: 350.0pt x 146.9326pt.
-pdfTeX warning (ext4): destination with the same identifier (name{namespacepatc
-h_a54d2400c78aef13e3748a87cd7c86ede}) has been already used, duplicate ignored
+ [32 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf> <./PointerArray
+_8cpp__incl.pdf
+
+pdfTeX warning: pdflatex (file ./PointerArray_8cpp__incl.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]pdfTeX warning (ext4): destination with the same identifier (name{namespacepa
+tch_a54d2400c78aef13e3748a87cd7c86ede}) has been already used, duplicate ignore
+d
 <to be read again> 
                    \relax 
 l.43 ...e}{patch\-::to\-\_\-string} (const T \&n)}
@@ -1565,13 +1599,9 @@ ay_ae12e5e44ecdf5808872ebdc05476e93f}) has been already used, duplicate ignored
                    \relax 
 l.49 ...= \char`\"{} Pointer\-Array\-: \char`\"{}}
                                                   \label{namespaceparray_ae1...
-[32 <./PointerArray_8cpp__incl.pdf> <./PointerArray_8cpp__dep__incl.pdf
+pdfTeX warning (ext4): destination with the same identifier (name{namespaceparr
+ay_ab57bc1fd35280f9304abbf9755598710}) has been already used, duplicate ignored
 
-pdfTeX warning: pdflatex (file ./PointerArray_8cpp__dep__incl.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->]pdfTeX warning (ext4): destination with the same identifier (name{namespacepa
-rray_ab57bc1fd35280f9304abbf9755598710}) has been already used, duplicate ignor
-ed
 <to be read again> 
                    \relax 
 l.52 ...-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-I\-N\-F\-O}
@@ -1586,14 +1616,14 @@ Underfull \hbox (badness 10000) detected at line 61
 [][][]
  []
 
-) (./Spreadsheet_8cpp.tex
-<Spreadsheet_8cpp__incl.pdf, id=1185, 283.0575pt x 269.005pt>
+) (./Spreadsheet_8cpp.tex [33 <./PointerArray_8cpp__dep__incl.pdf>]
+<Spreadsheet_8cpp__incl.pdf, id=1238, 283.0575pt x 269.005pt>
 File: Spreadsheet_8cpp__incl.pdf Graphic file (type pdf)
 
 <use Spreadsheet_8cpp__incl.pdf>
 Package pdftex.def Info: Spreadsheet_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 282.0pt x 268.0233pt.
- [33 <./Spreadsheet_8cpp__incl.pdf>]
+
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -1603,18 +1633,18 @@ Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
-
+[34 <./Spreadsheet_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
 
-) (./WebPage_8cpp.tex <WebPage_8cpp__incl.pdf, id=1200, 277.035pt x 269.005pt>
+) (./WebPage_8cpp.tex <WebPage_8cpp__incl.pdf, id=1254, 277.035pt x 269.005pt>
 File: WebPage_8cpp__incl.pdf Graphic file (type pdf)
 
 <use WebPage_8cpp__incl.pdf>
 Package pdftex.def Info: WebPage_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 276.0pt x 268.00278pt.
- [34 <./WebPage_8cpp__incl.pdf>]
+
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -1624,12 +1654,12 @@ Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
-
+[35 <./WebPage_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
 
-) [35]
+) [36]
 No file refman.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
@@ -1648,13 +1678,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
- 12787 strings out of 494958
- 189996 string characters out of 6179213
- 258044 words of memory out of 5000000
- 15469 multiletter control sequences out of 15000+600000
- 98554 words of font info for 147 fonts, out of 8000000 for 9000
+ 12785 strings out of 494958
+ 189973 string characters out of 6179213
+ 260046 words of memory out of 5000000
+ 15467 multiletter control sequences out of 15000+600000
+ 96197 words of font info for 144 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 48i,12n,43p,1131b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,12n,43p,1131b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
@@ -1664,10 +1694,10 @@ urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (39 pages, 234476 bytes).
+Output written on refman.pdf (40 pages, 239125 bytes).
 PDF statistics:
- 1312 PDF objects out of 1440 (max. 8388607)
- 1205 compressed objects within 13 object streams
- 271 named destinations out of 1000 (max. 500000)
+ 1366 PDF objects out of 1440 (max. 8388607)
+ 1258 compressed objects within 13 object streams
+ 272 named destinations out of 1000 (max. 500000)
  567 words of extra memory for PDF output out of 10000 (max. 10000000)
 

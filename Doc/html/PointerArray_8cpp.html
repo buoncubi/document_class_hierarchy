@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('PointerArray_8cpp.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>The complete <a class="el" href="namespaceparray.html" title="it specify the dynamic array manager for a generic data T and a std::string specialisation. ">parray</a> (parray::PointerArray&lt;T&gt;) and <a class="el" href="namespacepatch.html" title="to emulate C++11 and get to_string translator ">patch</a> names paces specification and implementation.  
+<p>The complete <a class="el" href="namespaceparray.html" title="it specify the dynamic array manager for a generic data T and a std::string specialisation. ">parray</a> (parray::PointerArray&lt;T&gt;) and <a class="el" href="namespacepatch.html" title="to emulate C++11 and get to_string translator ">patch</a> names paces definition.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;sstream&gt;</code><br/>
@@ -127,7 +127,7 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="PointerArray_8cpp__dep__incl.png" border="0" usemap="#src_2PointerArray_8cppdep" alt=""/></div>
 <map name="src_2PointerArray_8cppdep" id="src_2PointerArray_8cppdep">
-<area shape="rect" id="node2" href="Document_8h.html" title="The complete Document Hierarchy namespce specification. " alt="" coords="133,80,248,107"/><area shape="rect" id="node4" href="main_8cpp.html" title="implements a main function to check the behavior of the #plist template class and docs hierarchy..." alt="" coords="5,155,101,181"/><area shape="rect" id="node3" href="Document_8cpp.html" title="implementation of the Document base class. " alt="" coords="126,155,255,181"/><area shape="rect" id="node5" href="Spreadsheet_8cpp.html" title="implementation of the Spreadsheet (extending) Document class. " alt="" coords="279,155,421,181"/><area shape="rect" id="node6" href="WebPage_8cpp.html" title="implementation of the WebBase (extending) Document class. " alt="" coords="446,155,572,181"/></map>
+<area shape="rect" id="node2" href="Document_8h.html" title="The complete Document Hierarchy namespce specification. " alt="" coords="133,80,248,107"/><area shape="rect" id="node4" href="main_8cpp.html" title="implements a main function to check the behavior of the parray template and docs hierarchy. " alt="" coords="5,155,101,181"/><area shape="rect" id="node3" href="Document_8cpp.html" title="implementation of the Document base class. " alt="" coords="126,155,255,181"/><area shape="rect" id="node5" href="Spreadsheet_8cpp.html" title="implementation of the docs::Spreadsheet class. " alt="" coords="279,155,421,181"/><area shape="rect" id="node6" href="WebPage_8cpp.html" title="implementation of the docs::WebPage class. " alt="" coords="446,155,572,181"/></map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -136,6 +136,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class describes a manager of a dynamic array of generic type T*.  <a href="classparray_1_1PointerArray.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1StringPointerArray.html">parray::StringPointerArray</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">It implements a <a class="el" href="classparray_1_1PointerArray.html#ab506b284822d1e013813579e06893797" title="does not initialise the set and invalidates the counter (generates also warning log to advertise the ...">PointerArray</a> with a string parameter (T).  <a href="classparray_1_1StringPointerArray.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -167,17 +168,17 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <tr class="separator:ab57bc1fd35280f9304abbf9755598710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The complete <a class="el" href="namespaceparray.html" title="it specify the dynamic array manager for a generic data T and a std::string specialisation. ">parray</a> (parray::PointerArray&lt;T&gt;) and <a class="el" href="namespacepatch.html" title="to emulate C++11 and get to_string translator ">patch</a> names paces specification and implementation. </p>
+<div class="textblock"><p>The complete <a class="el" href="namespaceparray.html" title="it specify the dynamic array manager for a generic data T and a std::string specialisation. ">parray</a> (parray::PointerArray&lt;T&gt;) and <a class="el" href="namespacepatch.html" title="to emulate C++11 and get to_string translator ">patch</a> names paces definition. </p>
 <dl class="section author"><dt>Author</dt><dd>Buoncompagni Luca </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>Sep 14, 2016</dd></dl>
-<p>It describes a common templated method to convert an object into a string (<a class="el" href="namespacepatch.html#a54d2400c78aef13e3748a87cd7c86ede" title="returns the description of the parameter by using &lt;&lt; operator on a fresh std::ostringstream ...">patch::to_string()</a>). Also, it defines a templated manager to a dynamic array (<a class="el" href="classparray_1_1PointerArray.html" title="This class describes a manager of a dynamic array of generic type T*. ">parray::PointerArray</a>) as well as a specialisation that deal with arrays of string (<a class="el" href="classparray_1_1StringPointerArray.html">parray::StringPointerArray</a>). For the last, also a static method for behavior testing is provided (StringPointerArray::tester()). </p>
+<p>It describes a common templated method to convert an object into a string (<a class="el" href="namespacepatch.html#a54d2400c78aef13e3748a87cd7c86ede" title="returns the description of the parameter by using &lt;&lt; operator on a fresh std::ostringstream ...">patch::to_string()</a>). Also, it defines a templated manager to a dynamic array (<a class="el" href="classparray_1_1PointerArray.html" title="This class describes a manager of a dynamic array of generic type T*. ">parray::PointerArray</a>) as well as a specialisation that deal with arrays of string (<a class="el" href="classparray_1_1StringPointerArray.html" title="It implements a PointerArray with a string parameter (T). ">parray::StringPointerArray</a>). For the last, also a static method for behavior testing is provided (StringPointerArray::tester()). </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="PointerArray_8cpp.html">PointerArray.cpp</a></li>
-    <li class="footer">Generated on Thu Oct 6 2016 18:19:12 for DocumentClassHierarchy by
+    <li class="footer">Generated on Tue Oct 18 2016 13:06:45 for DocumentClassHierarchy by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

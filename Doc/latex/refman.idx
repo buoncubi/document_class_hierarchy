@@ -14,28 +14,28 @@
 \indexentry{docs@{docs}!operator==@{operator==}|hyperpage}{11}
 \indexentry{operator==@{operator==}!docs@{docs}|hyperpage}{11}
 \indexentry{parray@{parray}|hyperpage}{11}
-\indexentry{patch@{patch}|hyperpage}{12}
+\indexentry{patch@{patch}|hyperpage}{11}
 \indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Doc\discretionary {-}{}{}Type@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Doc\discretionary {-}{}{}Type}|hyperpage}{13}
 \indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{14}
-\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}!operator!=@{operator!=}|hyperpage}{16}
-\indexentry{operator!=@{operator!=}!docs::Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{16}
-\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}!operator$<$$<$@{operator$<$$<$}|hyperpage}{16}
-\indexentry{operator$<$$<$@{operator$<$$<$}!docs::Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{16}
-\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}!operator==@{operator==}|hyperpage}{16}
-\indexentry{operator==@{operator==}!docs::Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{16}
+\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}!operator!=@{operator!=}|hyperpage}{17}
+\indexentry{operator!=@{operator!=}!docs::Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{17}
+\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}!operator$<$$<$@{operator$<$$<$}|hyperpage}{17}
+\indexentry{operator$<$$<$@{operator$<$$<$}!docs::Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{17}
+\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}!operator==@{operator==}|hyperpage}{17}
+\indexentry{operator==@{operator==}!docs::Document@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Document}|hyperpage}{17}
 \indexentry{parray\discretionary {-}{}{}::\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array$<$ T $>$@{parray\discretionary {-}{}{}::\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array$<$ T $>$}|hyperpage}{17}
 \indexentry{parray\discretionary {-}{}{}::\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array@{parray\discretionary {-}{}{}::\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{19}
 \indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!parray::PointerArray@{parray\discretionary {-}{}{}::\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array}|hyperpage}{19}
 \indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Spreadsheet@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Spreadsheet}|hyperpage}{19}
-\indexentry{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array@{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array}|hyperpage}{21}
+\indexentry{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array@{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array}|hyperpage}{22}
 \indexentry{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array@{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array}!tester@{tester}|hyperpage}{23}
 \indexentry{tester@{tester}!parray::StringPointerArray@{parray\discretionary {-}{}{}::\discretionary {-}{}{}String\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array}|hyperpage}{23}
-\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Web\discretionary {-}{}{}Page@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Web\discretionary {-}{}{}Page}|hyperpage}{23}
+\indexentry{docs\discretionary {-}{}{}::\discretionary {-}{}{}Web\discretionary {-}{}{}Page@{docs\discretionary {-}{}{}::\discretionary {-}{}{}Web\discretionary {-}{}{}Page}|hyperpage}{24}
 \indexentry{src/\discretionary {-}{}{}Document.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Document.\discretionary {-}{}{}cpp}|hyperpage}{27}
 \indexentry{src/\discretionary {-}{}{}Document.\discretionary {-}{}{}h@{src/\discretionary {-}{}{}Document.\discretionary {-}{}{}h}|hyperpage}{28}
 \indexentry{src/main.\discretionary {-}{}{}cpp@{src/main.\discretionary {-}{}{}cpp}|hyperpage}{30}
 \indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{31}
 \indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{31}
-\indexentry{src/\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array.\discretionary {-}{}{}cpp}|hyperpage}{31}
-\indexentry{src/\discretionary {-}{}{}Spreadsheet.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Spreadsheet.\discretionary {-}{}{}cpp}|hyperpage}{33}
-\indexentry{src/\discretionary {-}{}{}Web\discretionary {-}{}{}Page.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Web\discretionary {-}{}{}Page.\discretionary {-}{}{}cpp}|hyperpage}{34}
+\indexentry{src/\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Pointer\discretionary {-}{}{}Array.\discretionary {-}{}{}cpp}|hyperpage}{32}
+\indexentry{src/\discretionary {-}{}{}Spreadsheet.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Spreadsheet.\discretionary {-}{}{}cpp}|hyperpage}{34}
+\indexentry{src/\discretionary {-}{}{}Web\discretionary {-}{}{}Page.\discretionary {-}{}{}cpp@{src/\discretionary {-}{}{}Web\discretionary {-}{}{}Page.\discretionary {-}{}{}cpp}|hyperpage}{35}

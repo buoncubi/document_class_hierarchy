@@ -10,13 +10,13 @@ This namespace is used to collect all the document hierarchy classes and types.
 \begin{DoxyCompactItemize}
 \item 
 class \hyperlink{classdocs_1_1DocType}{Doc\-Type}
-\item 
+\begin{DoxyCompactList}\small\item\em The class containing the definition of \hyperlink{classdocs_1_1Document}{Document} Types names. \end{DoxyCompactList}\item 
 class \hyperlink{classdocs_1_1Document}{Document}
-\item 
+\begin{DoxyCompactList}\small\item\em This is the base class of the \hyperlink{classdocs_1_1Document}{Document} hierarchy. \end{DoxyCompactList}\item 
 class \hyperlink{classdocs_1_1WebPage}{Web\-Page}
-\item 
+\begin{DoxyCompactList}\small\item\em It describes a web page as a \hyperlink{classdocs_1_1Document}{Document} extensions. \end{DoxyCompactList}\item 
 class \hyperlink{classdocs_1_1Spreadsheet}{Spreadsheet}
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em This describes a spreadsheet as a \hyperlink{classdocs_1_1Document}{Document} extension. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Enumerations}
 \begin{DoxyCompactItemize}
 \item 
@@ -57,13 +57,13 @@ bool \hyperlink{namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89}{operator!=} (co
 \begin{DoxyCompactList}\small\item\em The number of rows, if not specified on \hyperlink{classdocs_1_1Spreadsheet}{Spreadsheet} construction. \end{DoxyCompactList}\item 
 \hypertarget{namespacedocs_a88f8e41b03147cf4197261676999d12c}{const std\-::string \hyperlink{namespacedocs_a88f8e41b03147cf4197261676999d12c}{T\-Y\-P\-E\-\_\-\-N\-A\-M\-E\-\_\-\-D\-O\-C\-U\-M\-E\-N\-T} = \char`\"{}\textbackslash{}\char`\"{}Document\textbackslash{}\char`\"{}\char`\"{}}\label{namespacedocs_a88f8e41b03147cf4197261676999d12c}
 
-\begin{DoxyCompactList}\small\item\em The name of the D\-O\-C\-U\-M\-E\-N\-T type values. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em The name of the Type.\-D\-O\-C\-U\-M\-E\-N\-T type values. \end{DoxyCompactList}\item 
 \hypertarget{namespacedocs_ac41cf3635e22c3750deddd000fd4c34b}{const std\-::string \hyperlink{namespacedocs_ac41cf3635e22c3750deddd000fd4c34b}{T\-Y\-P\-E\-\_\-\-N\-A\-M\-E\-\_\-\-W\-E\-B\-P\-A\-G\-E} = \char`\"{}\textbackslash{}\char`\"{}Web Page\textbackslash{}\char`\"{}\char`\"{}}\label{namespacedocs_ac41cf3635e22c3750deddd000fd4c34b}
 
-\begin{DoxyCompactList}\small\item\em The name of the W\-E\-B\-\_\-\-P\-A\-G\-E type values. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em The name of the Type.\-W\-E\-B\-\_\-\-P\-A\-G\-E type values. \end{DoxyCompactList}\item 
 \hypertarget{namespacedocs_a3f58481f03c01b3da04828585d14ff77}{const std\-::string \hyperlink{namespacedocs_a3f58481f03c01b3da04828585d14ff77}{T\-Y\-P\-E\-\_\-\-N\-A\-M\-E\-\_\-\-S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T} = \char`\"{}\textbackslash{}\char`\"{}Spreadsheet\textbackslash{}\char`\"{}\char`\"{}}\label{namespacedocs_a3f58481f03c01b3da04828585d14ff77}
 
-\begin{DoxyCompactList}\small\item\em The name of the S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T type values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em The name of the Type.\-S\-P\-R\-E\-A\-D\-S\-H\-E\-E\-T type values. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -99,11 +99,7 @@ Instances of document identifier values.
 \item[{const Document \&}]{c2}
 \end{DoxyParamCaption}
 )}}\label{namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89}
-it returns
-\begin{DoxyCode}
-! c1.equals( c2) 
-\end{DoxyCode}
- . This method should not be implemented on derived classes. 
+it returns '!c1.equals( c2)'. This method should not be implemented on derived classes. 
 
 Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
@@ -122,11 +118,7 @@ Here is the call graph for this function\-:\nopagebreak
 \item[{const Document \&}]{doc}
 \end{DoxyParamCaption}
 )}}\label{namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18}
-it returns
-\begin{DoxyCode}
-strm << doc.toString() 
-\end{DoxyCode}
- . This method should not be implemented on derived classes. 
+it returns 'strm $<$$<$ doc.\-to\-String()'. This method should not be implemented on derived classes. 
 
 Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]
@@ -145,11 +137,7 @@ Here is the call graph for this function\-:\nopagebreak
 \item[{const Document \&}]{c2}
 \end{DoxyParamCaption}
 )}}\label{namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2}
-it returns
-\begin{DoxyCode}
-c1.equals( c2) 
-\end{DoxyCode}
- . This method should not be implemented on derived classes. 
+it returns 'c1.\-equals( c2)'. This method should not be implemented on derived classes. 
 
 Here is the call graph for this function\-:\nopagebreak
 \begin{figure}[H]

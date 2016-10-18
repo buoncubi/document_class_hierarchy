@@ -3,7 +3,7 @@
  * @author Buoncompagni Luca
  * @date Sep 14, 2016
  *
- * \brief implementation of the Spreadsheet (extending) Document class.
+ * \brief implementation of the docs#Spreadsheet class.
  *
  * @see Spreadsheet
  * @see Document

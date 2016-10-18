@@ -45,11 +45,11 @@ namespace docs{
 	/// The number of rows, if not specified on Spreadsheet construction.
 	const int DEFAULT_SPREADSHEET_ROWCNT = 2;
 
-	/// The name of the DOCUMENT type values
+	/// The name of the Type.DOCUMENT type values
 	const std::string TYPE_NAME_DOCUMENT = "\"Document\"";
-	/// The name of the WEB_PAGE type values
+	/// The name of the Type.WEB_PAGE type values
 	const std::string TYPE_NAME_WEBPAGE = "\"Web Page\"";
-	/// The name of the SPREADSHEET type values
+	/// The name of the Type.SPREADSHEET type values
 	const std::string TYPE_NAME_SPREADSHEET = "\"Spreadsheet\"";
 
 	/// Instances of document identifier values.
@@ -60,7 +60,12 @@ namespace docs{
 	};
 
 	/**
-	 * Class containing a Type value.
+	 * \brief The class containing the definition of Document Types names.
+	 * @see Type
+	 * @see TYPE_NAME_DOCUMENT
+	 * @see TYPE_NAME_WEBPAGE
+	 * @see TYPE_NAME_SPREADSHEET
+	 *
 	 * It allows to print the name of the of type of document and at
 	 * the same time make an easy comparison or perhaps a searching rule.
 	 */
@@ -109,8 +114,12 @@ namespace docs{
 	   ########################################################################### */
 
 	/**
-	 * This is the base class of the hierarchy and describes a generic document
-	 * through: a Type, a title (string) and a keyword set (PointerArray).
+	 * \brief This is the base class of the Document hierarchy.
+	 *
+	 * @see DocType
+	 * @see parray#StringPointerArray
+	 *
+	 * It describes a generic document through: a Type, a title (string) and a keyword set (PointerArray).
 	 * It implements default empty and copy constructors as well as basic
 	 * operator overloading.
 	 */
@@ -187,7 +196,13 @@ namespace docs{
 	   ########################################################################### */
 
 	/**
-	 * It describes a web page as a Document which have also an url and
+	 * \brief It describes a web page as a Document extensions.
+	 *
+	 * @see Document
+	 * @see DocType
+	 * @see parray#StringPointerArray
+	 *
+	 * This is a Document which have also an url and
 	 * an array of contents (e.g., textual line).
 	 */
 	class WebPage : public Document{
@@ -238,7 +253,12 @@ namespace docs{
 
 
 	/**
-	 * This describes a Document which has also a specified number of columns and rows.
+	 * \brief This describes a spreadsheet as a Document extension.
+	 * @see Document
+	 * @see DocType
+	 * @see parray#StringPointerArray
+	 *
+	 * It is a Document, which has also a specified number of columns and rows.
 	 */
 	class Spreadsheet : public Document{
 	public:

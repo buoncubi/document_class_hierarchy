@@ -3,6 +3,11 @@
 }
 
 
+This is the base class of the \hyperlink{classdocs_1_1Document}{Document} hierarchy.  
+
+
+
+
 {\ttfamily \#include $<$Document.\-h$>$}
 
 
@@ -108,7 +113,14 @@ bool \hyperlink{classdocs_1_1Document_abda12a8e6c13277b760c0e40efa44695}{operato
 
 
 \subsection{Detailed Description}
-This is the base class of the hierarchy and describes a generic document through\-: a Type, a title (string) and a keyword set (Pointer\-Array). It implements default empty and copy constructors as well as basic operator overloading. 
+This is the base class of the \hyperlink{classdocs_1_1Document}{Document} hierarchy. 
+
+\begin{DoxySeeAlso}{See Also}
+\hyperlink{classdocs_1_1DocType}{Doc\-Type} 
+
+\hyperlink{classparray_1_1StringPointerArray}{parray\-::\-String\-Pointer\-Array}
+\end{DoxySeeAlso}
+It describes a generic document through\-: a Type, a title (string) and a keyword set (Pointer\-Array). It implements default empty and copy constructors as well as basic operator overloading. 
 
 \subsection{Friends And Related Function Documentation}
 \hypertarget{classdocs_1_1Document_abda12a8e6c13277b760c0e40efa44695}{\index{docs\-::\-Document@{docs\-::\-Document}!operator!=@{operator!=}}
@@ -123,11 +135,7 @@ This is the base class of the hierarchy and describes a generic document through
 
 returns the negation of \hyperlink{classdocs_1_1Document_ad86b3a7c7d496f3b05c740e2c1433c78}{equals()} 
 
-it returns
-\begin{DoxyCode}
-! c1.equals( c2) 
-\end{DoxyCode}
- . This method should not be implemented on derived classes. \hypertarget{classdocs_1_1Document_a801e6c851261e550881c632d31407c55}{\index{docs\-::\-Document@{docs\-::\-Document}!operator$<$$<$@{operator$<$$<$}}
+it returns '!c1.equals( c2)'. This method should not be implemented on derived classes. \hypertarget{classdocs_1_1Document_a801e6c851261e550881c632d31407c55}{\index{docs\-::\-Document@{docs\-::\-Document}!operator$<$$<$@{operator$<$$<$}}
 \index{operator$<$$<$@{operator$<$$<$}!docs::Document@{docs\-::\-Document}}
 \subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}std\-::ostream\& operator$<$$<$ (
 \begin{DoxyParamCaption}
@@ -139,11 +147,7 @@ it returns
 
 return the result of \hyperlink{classdocs_1_1Document_a16db383045038b779eb489ad125ef02b}{to\-String()}. 
 
-it returns
-\begin{DoxyCode}
-strm << doc.toString() 
-\end{DoxyCode}
- . This method should not be implemented on derived classes. \hypertarget{classdocs_1_1Document_aba6a95005cddfc7e9b668de3b0160cc6}{\index{docs\-::\-Document@{docs\-::\-Document}!operator==@{operator==}}
+it returns 'strm $<$$<$ doc.\-to\-String()'. This method should not be implemented on derived classes. \hypertarget{classdocs_1_1Document_aba6a95005cddfc7e9b668de3b0160cc6}{\index{docs\-::\-Document@{docs\-::\-Document}!operator==@{operator==}}
 \index{operator==@{operator==}!docs::Document@{docs\-::\-Document}}
 \subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operator== (
 \begin{DoxyParamCaption}
@@ -155,11 +159,7 @@ strm << doc.toString()
 
 returns the result of \hyperlink{classdocs_1_1Document_ad86b3a7c7d496f3b05c740e2c1433c78}{equals()}. 
 
-it returns
-\begin{DoxyCode}
-c1.equals( c2) 
-\end{DoxyCode}
- . This method should not be implemented on derived classes. 
+it returns 'c1.\-equals( c2)'. This method should not be implemented on derived classes. 
 
 The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
 \item 

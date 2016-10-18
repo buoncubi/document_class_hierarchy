@@ -56,7 +56,7 @@ namespace docs{
 	const std::string Document::toString() const{
 		return "[" + typeId.getName() + "] (title:" + title + ")(key words: " + keyWords->toString() + ")";
 	}
-	/** it returns {@code strm << doc.toString()}. This method should not be implemented on derived classes. **/
+	/** it returns 'strm << doc.toString()'. This method should not be implemented on derived classes. */
 	std::ostream& operator<<( std::ostream& strm, const Document& doc) {
 		return strm << doc.toString();
 	}
@@ -79,11 +79,11 @@ namespace docs{
 					return true;
 		return false;
 	}
-	/** it returns {@code c1.equals( c2)}. This method should not be implemented on derived classes. */
+	/** it returns 'c1.equals( c2)'. This method should not be implemented on derived classes. */
 	bool operator== (const Document &c1, const Document &c2){
 		return c1.equals( c2);
 	}
-	/** it returns {@code ! c1.equals( c2)}. This method should not be implemented on derived classes. */
+	/** it returns '!c1.equals( c2)'. This method should not be implemented on derived classes. */
 	bool operator!= (const Document &c1, const Document &c2){
 		return !operator==( c1, c2);
 	}
