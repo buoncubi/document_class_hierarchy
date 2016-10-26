@@ -12,4 +12,4 @@ The code is composed by two main Namespaces:
 
 Finally, testing and examples functions are implemented as well, for details see the *"./src/main.cpp"* file.
 
-**Remark**: the developing of this project is aimed for experiencing C++ features. So, its implementation may not use optimised functions and libraries but, on the other hands, it explore the usage of templates, operators, class hierarchy etc.
+**Remark**: the developing of this project is aimed for experiencing C++ features. So, its implementation may not use optimised functions and libraries but, on the other hand, it explores the usage of: *templates*, *operators*, *class hierarchy*, etc.
