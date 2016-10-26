@@ -1,0 +1,7 @@
+<map id="parray::StringPointerArray::add" name="parray::StringPointerArray::add">
+<area shape="rect" id="node2" href="$classparray_1_1PointerArray.html#a6d4347a899d2783d23775957ad71f743" title="replace the array with a new memory of the defined size. Possible old values are copied from start up..." alt="" coords="261,70,408,111"/>
+<area shape="rect" id="node6" href="$classparray_1_1PointerArray.html#ac676a9ef1cc04a9aab5f9b744142bf61" title="returns the actual size of the array. " alt="" coords="257,135,413,177"/>
+<area shape="rect" id="node3" href="$classparray_1_1PointerArray.html#a3010540e156076377ffd4428b05e1ac2" title="make a new copy in memory (based on newSet()). " alt="" coords="476,5,615,46"/>
+<area shape="rect" id="node4" href="$classparray_1_1PointerArray.html#afc7385141e8217e1ebe3b2a3a3a40679" title="allocate a new memory of this object size. Delete old memory if is not invalidated. " alt="" coords="476,70,615,111"/>
+<area shape="rect" id="node5" href="$classparray_1_1PointerArray.html#ae080aeced3af072006e4a609fdadb838" title="add an element into the array. Returns false if the array is full " alt="" coords="462,136,629,163"/>
+</map>

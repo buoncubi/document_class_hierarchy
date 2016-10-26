@@ -1,0 +1,4 @@
+<map id="docs::WebPage::WebPage" name="docs::WebPage::WebPage">
+<area shape="rect" id="node2" href="$classdocs_1_1WebPage.html#a52ac0dc90ab3f5621d0fa41d8386806c" title="copy this object on a new memory location. It relies on Document::copy(), which is also used on copy ..." alt="" coords="235,5,386,32"/>
+<area shape="rect" id="node3" href="$classdocs_1_1Document.html#ad8b6a91c7a8e39a880790d14aba14322" title="copy this object on a new memory location. " alt="" coords="435,5,589,32"/>
+</map>

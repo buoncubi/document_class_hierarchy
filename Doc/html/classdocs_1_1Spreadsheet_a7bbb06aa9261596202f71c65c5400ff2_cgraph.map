@@ -1,0 +1,6 @@
+<map id="docs::Spreadsheet::Spreadsheet" name="docs::Spreadsheet::Spreadsheet">
+<area shape="rect" id="node2" href="$classdocs_1_1Spreadsheet.html#ad7ab608a90b53969ec97214c447c43c6" title="copy this object on a new memory location. It relies on Document::copy(), which is also used on copy ..." alt="" coords="193,64,359,91"/>
+<area shape="rect" id="node3" href="$classdocs_1_1Document.html#ad8b6a91c7a8e39a880790d14aba14322" title="copy this object on a new memory location. " alt="" coords="408,5,563,32"/>
+<area shape="rect" id="node4" href="$classdocs_1_1Spreadsheet.html#a25339a2bc1be68500a907969d15b02d0" title="get the number of rows (rowCnt) of this Spreadsheet. " alt="" coords="416,57,555,98"/>
+<area shape="rect" id="node5" href="$classdocs_1_1Spreadsheet.html#a9a89463f0b79318f6ead47bb4d00a7b4" title="get the number of columns (coloumnCnt) of this Spreadsheet. " alt="" coords="416,122,555,163"/>
+</map>

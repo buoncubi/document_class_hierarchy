@@ -1,0 +1,6 @@
+<map id="docs::Spreadsheet::toString" name="docs::Spreadsheet::toString">
+<area shape="rect" id="node2" href="$classdocs_1_1Document.html#a16db383045038b779eb489ad125ef02b" title="print the information of this object by listing all the data members. " alt="" coords="192,35,363,61"/>
+<area shape="rect" id="node5" href="$namespacepatch.html#a54d2400c78aef13e3748a87cd7c86ede" title="returns the description of the parameter by using &lt;&lt; operator on a fresh std::ostringstream ..." alt="" coords="221,85,333,112"/>
+<area shape="rect" id="node3" href="$classdocs_1_1DocType.html#a4632fc57ed71ebb984aa8dd78017db03" title="returns the name of the type of the document and &quot;Invalid Type&quot; if unknown. " alt="" coords="411,5,583,32"/>
+<area shape="rect" id="node4" href="$classparray_1_1PointerArray.html#a4c6e34cad01f5f72dd6c5de917ed3a34" title="returns a description of the memory managed by this class " alt="" coords="428,57,567,98"/>
+</map>

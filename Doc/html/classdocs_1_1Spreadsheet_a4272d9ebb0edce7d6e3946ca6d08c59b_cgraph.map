@@ -1,0 +1,4 @@
+<map id="docs::Spreadsheet::equals" name="docs::Spreadsheet::equals">
+<area shape="rect" id="node2" href="$classdocs_1_1Document.html#ad86b3a7c7d496f3b05c740e2c1433c78" title="check if all the data member are equals (type, title, keyWords). " alt="" coords="193,12,357,39"/>
+<area shape="rect" id="node3" href="$classdocs_1_1DocType.html#a4632fc57ed71ebb984aa8dd78017db03" title="returns the name of the type of the document and &quot;Invalid Type&quot; if unknown. " alt="" coords="406,12,578,39"/>
+</map>
