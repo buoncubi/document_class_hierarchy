@@ -6,6 +6,5 @@ var classdocs_1_1DocType =
     [ "getType", "classdocs_1_1DocType.html#a1a7221ca7a1b44b1b115c81c469f6f75", null ],
     [ "operator!=", "classdocs_1_1DocType.html#a6f7b8c51d3dc0ec95808119766eb8010", null ],
     [ "operator<<", "classdocs_1_1DocType.html#ab7f2e778c65c36835a714e77aa2c3a09", null ],
-    [ "operator==", "classdocs_1_1DocType.html#aa68c01dc0d9b0494723b223bf52a6acf", null ],
-    [ "t", "classdocs_1_1DocType.html#a58ced824f3508e8f8d73b1ff1bfefc0a", null ]
+    [ "operator==", "classdocs_1_1DocType.html#aa68c01dc0d9b0494723b223bf52a6acf", null ]
 ];

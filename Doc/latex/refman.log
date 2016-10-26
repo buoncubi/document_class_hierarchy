@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.23)  18 OCT 2016 13:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.8.23)  26 OCT 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,56 +858,7 @@ Package hyperref Info: Option `unicode' set `true' on input line 101.
 File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
-) (./refman.aux
-
-LaTeX Warning: Label `namespacedocs_a4cf6dd6732c7e7ab7f7855e440485d89' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_ae635b9481a61628036b5a97625856475' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_a9bfb062436ca30729256c522cf54c111' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_a966b8c0a825e3e04a2c667abefa97f41' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_aa40437dd2d0305c57f338406303a3f58' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_a7562daac15433871b1cc71ad74555032' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_a88f8e41b03147cf4197261676999d12c' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_ac41cf3635e22c3750deddd000fd4c34b' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacedocs_a3f58481f03c01b3da04828585d14ff77' multiply
- defined.
-
-
-LaTeX Warning: Label `namespacepatch_a54d2400c78aef13e3748a87cd7c86ede' multipl
-y defined.
-
-
-LaTeX Warning: Label `namespaceparray_ae12e5e44ecdf5808872ebdc05476e93f' multip
-ly defined.
-
-
-LaTeX Warning: Label `namespaceparray_ab57bc1fd35280f9304abbf9755598710' multip
-ly defined.
-
-)
+) (./refman.aux)
 \openout1 = `refman.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
@@ -925,7 +876,8 @@ LaTeX Font Info:    ... okay on input line 111.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 111.
 
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 111.
@@ -1028,7 +980,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 114.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.9599pt on input line 119.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 121.
+(Font)              scaled to size 10.79993pt on input line 119.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 123.
  [1
@@ -1087,15 +1039,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [3
 
-])
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 70.
+ [4] [5] [6]
+[7])
 \tf@toc=\write5
 \openout5 = `refman.toc'.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 128.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 128.
- [4]
+ [8]
 Package hyperref Info: Option `pageanchor' set `true' on input line 130.
 
 Chapter 1.
@@ -1152,81 +1106,89 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 8.09995pt on input line 13.
 [9]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 75.
+(Font)              scaled to size 8.99994pt on input line 90.
 
-Underfull \hbox (badness 10000) detected at line 81
+Underfull \hbox (badness 10000) detected at line 96
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 85.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 85.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 8.99994pt on input line 85.
+(Font)              scaled to size 8.99994pt on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/bc/it' in size <10> not available
-(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 101.
+(Font)              Font shape `T1/phv/bc/sl' tried instead on input line 120.
 LaTeX Font Info:    Font shape `T1/phv/bc/sl' will be
-(Font)              scaled to size 8.99994pt on input line 101.
+(Font)              scaled to size 8.99994pt on input line 120.
 
-<namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf, id=470, 624.3325pt
- x 100.375pt>
+<namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf, id=1182, 624.3325p
+t x 100.375pt>
 File: namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf Graphic file (
 type pdf)
- <use namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf>
+
+<use namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf>
 Package pdftex.def Info: namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph
-.pdf used on input line 108.
+.pdf used on input line 135.
 (pdftex.def)             Requested size: 350.0pt x 56.27086pt.
+ [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 147.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
+(hyperref)                removing `math shift' on input line 147.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 120.
-
-
-<namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf, id=471, 503.8825pt
- x 149.55875pt>
+<namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf, id=1200, 503.8825p
+t x 149.55875pt>
 File: namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf Graphic file (
 type pdf)
 
 <use namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf>
 Package pdftex.def Info: namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph
-.pdf used on input line 127.
+.pdf used on input line 162.
 (pdftex.def)             Requested size: 350.0pt x 103.88483pt.
- [10 <./namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf>]
-<namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf, id=492, 499.8675pt
- x 100.375pt>
+
+<namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf, id=1201, 499.8675p
+t x 100.375pt>
 File: namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf Graphic file (
 type pdf)
- <use namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf>
+
+<use namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf>
 Package pdftex.def Info: namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph
-.pdf used on input line 146.
+.pdf used on input line 193.
 (pdftex.def)             Requested size: 350.0pt x 70.28345pt.
-) (./namespaceparray.tex
+)
+(./namespaceparray.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 13.
-) (./namespacepatch.tex [11 <./namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb18_
-cgraph.pdf> <./namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf
+ [11 <./namespacedocs_abbb9bd3baf3e28ceb50a275bb0695e89_cgraph.pdf> <./namespac
+edocs_a2464f4b0ad981aa2f4f4f56dd16afb18_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./namespacedocs_a2464f4b0ad981aa2f4f4f56dd16afb1
+8_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+> <./namespacedocs_a69ecd221cb71a7f629bf48b283aefbc2_cgraph.pdf
 
 pdfTeX warning: pdflatex (file ./namespacedocs_a69ecd221cb71a7f629bf48b283aefbc
 2_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
 e page
->]
+>]) (./namespacepatch.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 12.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
@@ -1238,15 +1200,15 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [13
-
-]
-Underfull \hbox (badness 10000) detected at line 51
+)
+Underfull \hbox (badness 10000) detected at line 45
 [][][]
  []
 
-) (./classdocs_1_1Document.tex
-<classdocs_1_1Document__inherit__graph.pdf, id=572, 283.0575pt x 156.585pt>
+[13
+
+]) (./classdocs_1_1Document.tex
+<classdocs_1_1Document__inherit__graph.pdf, id=1292, 283.0575pt x 156.585pt>
 File: classdocs_1_1Document__inherit__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Document__inherit__graph.pdf>
@@ -1254,27 +1216,27 @@ Package pdftex.def Info: classdocs_1_1Document__inherit__graph.pdf used on inpu
 t line 19.
 (pdftex.def)             Requested size: 282.0pt x 156.01357pt.
 
-<classdocs_1_1Document__coll__graph.pdf, id=573, 310.15875pt x 238.8925pt>
+<classdocs_1_1Document__coll__graph.pdf, id=1293, 168.63pt x 168.63pt>
 File: classdocs_1_1Document__coll__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Document__coll__graph.pdf>
 Package pdftex.def Info: classdocs_1_1Document__coll__graph.pdf used on input l
-ine 28.
-(pdftex.def)             Requested size: 309.0pt x 237.99883pt.
+ine 29.
+(pdftex.def)             Requested size: 168.0pt x 168.00432pt.
+ [14 <./classdocs_1_1Document__inherit__graph.pdf> <./classdocs_1_1Document__co
+ll__graph.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./classdocs_1_1Document__inherit__graph.pdf>] [15 <./classdocs_1_1Documen
-t__coll__graph.pdf>]
-Underfull \hbox (badness 10000) detected at line 118
+pdfTeX warning: pdflatex (file ./classdocs_1_1Document__coll__graph.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [15]
+Underfull \hbox (badness 10000) detected at line 110
 [][][]
  []
 
 
 LaTeX Font Warning: Font shape `T1/pcr/bc/n' undefined
-(Font)              using `T1/pcr/m/n' instead on input line 133.
+(Font)              using `T1/pcr/m/n' instead on input line 129.
 
-[16]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 145.
@@ -1313,16 +1275,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-<classparray_1_1PointerArray__coll__graph.pdf, id=706, 208.78pt x 168.63pt>
-File: classparray_1_1PointerArray__coll__graph.pdf Graphic file (type pdf)
-
-<use classparray_1_1PointerArray__coll__graph.pdf>
-Package pdftex.def Info: classparray_1_1PointerArray__coll__graph.pdf used on i
-nput line 15.
-(pdftex.def)             Requested size: 208.0pt x 168.00946pt.
- [17 <./classparray_1_1PointerArray__coll__graph.pdf>] [18]) (./classdocs_1_1Sp
-readsheet.tex
-<classdocs_1_1Spreadsheet__inherit__graph.pdf, id=804, 176.66pt x 156.585pt>
+[16] [17]) (./classdocs_1_1Spreadsheet.tex
+<classdocs_1_1Spreadsheet__inherit__graph.pdf, id=1484, 176.66pt x 156.585pt>
 File: classdocs_1_1Spreadsheet__inherit__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Spreadsheet__inherit__graph.pdf>
@@ -1330,71 +1284,61 @@ Package pdftex.def Info: classdocs_1_1Spreadsheet__inherit__graph.pdf used on i
 nput line 19.
 (pdftex.def)             Requested size: 176.0pt x 156.00162pt.
 
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
- [19]
-<classdocs_1_1Spreadsheet__coll__graph.pdf, id=818, 310.15875pt x 297.11pt>
+<classdocs_1_1Spreadsheet__coll__graph.pdf, id=1485, 176.66pt x 226.8475pt>
 File: classdocs_1_1Spreadsheet__coll__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1Spreadsheet__coll__graph.pdf>
 Package pdftex.def Info: classdocs_1_1Spreadsheet__coll__graph.pdf used on inpu
-t line 28.
-(pdftex.def)             Requested size: 309.0pt x 295.99855pt.
- [20 <./classdocs_1_1Spreadsheet__inherit__graph.pdf> <./classdocs_1_1Spreadshe
-et__coll__graph.pdf
+t line 29.
+(pdftex.def)             Requested size: 176.0pt x 226.00235pt.
 
-pdfTeX warning: pdflatex (file ./classdocs_1_1Spreadsheet__coll__graph.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) detected at line 85
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./classdocs_1_1Spreadsheet__inherit__graph.pdf>] [19 <./classdocs_1_1Spre
+adsheet__coll__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 77
 [][][]
  []
 
 ) (./classparray_1_1StringPointerArray.tex
-<classparray_1_1StringPointerArray__inherit__graph.pdf, id=900, 208.78pt x 168.
-63pt>
+<classparray_1_1StringPointerArray__inherit__graph.pdf, id=1566, 208.78pt x 168
+.63pt>
 File: classparray_1_1StringPointerArray__inherit__graph.pdf Graphic file (type 
 pdf)
  <use classparray_1_1StringPointerArray__inherit__graph.pdf>
 Package pdftex.def Info: classparray_1_1StringPointerArray__inherit__graph.pdf 
 used on input line 15.
 (pdftex.def)             Requested size: 208.0pt x 168.00946pt.
- [21]
-<classparray_1_1StringPointerArray__coll__graph.pdf, id=917, 208.78pt x 168.63p
-t>
+
+<classparray_1_1StringPointerArray__coll__graph.pdf, id=1567, 208.78pt x 168.63
+pt>
 File: classparray_1_1StringPointerArray__coll__graph.pdf Graphic file (type pdf
 )
  <use classparray_1_1StringPointerArray__coll__graph.pdf>
 Package pdftex.def Info: classparray_1_1StringPointerArray__coll__graph.pdf use
 d on input line 24.
 (pdftex.def)             Requested size: 208.0pt x 168.00946pt.
- [22 <./classparray_1_1StringPointerArray__inherit__graph.pdf> <./classparray_1
-_1StringPointerArray__coll__graph.pdf
 
-pdfTeX warning: pdflatex (file ./classparray_1_1StringPointerArray__coll__graph
-.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \hbox (badness 10000) detected at line 61
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <./classparray_1_1StringPointerArray__inherit__graph.pdf>]
+Underfull \hbox (badness 10000) detected at line 55
 [][][]
  []
 
-
+[21 <./classparray_1_1StringPointerArray__coll__graph.pdf>]
 <classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgraph.pdf
-, id=968, 716.6775pt x 438.63875pt>
+, id=1620, 716.6775pt x 340.27126pt>
 File: classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgrap
 h.pdf Graphic file (type pdf)
 
 <use classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgraph
 .pdf>
 Package pdftex.def Info: classparray_1_1StringPointerArray_abfac13570bec8c88311
-714d19ddea59b_cgraph.pdf used on input line 104.
-(pdftex.def)             Requested size: 350.0pt x 214.2187pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23])
-(./classdocs_1_1WebPage.tex
-<classdocs_1_1WebPage__inherit__graph.pdf, id=979, 168.63pt x 156.585pt>
+714d19ddea59b_cgraph.pdf used on input line 115.
+(pdftex.def)             Requested size: 350.0pt x 166.1788pt.
+) (./classdocs_1_1WebPage.tex
+<classdocs_1_1WebPage__inherit__graph.pdf, id=1623, 168.63pt x 156.585pt>
 File: classdocs_1_1WebPage__inherit__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1WebPage__inherit__graph.pdf>
@@ -1402,36 +1346,37 @@ Package pdftex.def Info: classdocs_1_1WebPage__inherit__graph.pdf used on input
  line 19.
 (pdftex.def)             Requested size: 168.0pt x 156.004pt.
 
-<classdocs_1_1WebPage__coll__graph.pdf, id=980, 310.15875pt x 297.11pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <./classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgr
+aph.pdf>]
+<classdocs_1_1WebPage__coll__graph.pdf, id=1634, 168.63pt x 226.8475pt>
 File: classdocs_1_1WebPage__coll__graph.pdf Graphic file (type pdf)
 
 <use classdocs_1_1WebPage__coll__graph.pdf>
 Package pdftex.def Info: classdocs_1_1WebPage__coll__graph.pdf used on input li
-ne 28.
-(pdftex.def)             Requested size: 309.0pt x 295.99855pt.
+ne 29.
+(pdftex.def)             Requested size: 168.0pt x 226.00581pt.
+ [23 <./classdocs_1_1WebPage__inherit__graph.pdf> <./classdocs_1_1WebPage__coll
+__graph.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24 <./classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b_cgr
-aph.pdf> <./classdocs_1_1WebPage__inherit__graph.pdf
-
-pdfTeX warning: pdflatex (file ./classdocs_1_1WebPage__inherit__graph.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
->] [25 <./classdocs_1_1WebPage__coll__graph.pdf>]
-Underfull \hbox (badness 10000) detected at line 92
+pdfTeX warning: pdflatex (file ./classdocs_1_1WebPage__coll__graph.pdf): PDF in
+clusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 84
 [][][]
  []
 
-) [26]
+) [24]
 Chapter 7.
 (./Document_8cpp.tex
-<Document_8cpp__incl.pdf, id=1086, 278.03876pt x 269.005pt>
+<Document_8cpp__incl.pdf, id=1714, 278.03876pt x 269.005pt>
 File: Document_8cpp__incl.pdf Graphic file (type pdf)
 
 <use Document_8cpp__incl.pdf>
 Package pdftex.def Info: Document_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 277.0pt x 268.00278pt.
- [27
+ [25
 
  <./Document_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 34
@@ -1448,23 +1393,23 @@ Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
-) (./Document_8h.tex <Document_8h__incl.pdf, id=1105, 276.03125pt x 212.795pt>
+) (./Document_8h.tex <Document_8h__incl.pdf, id=1733, 276.03125pt x 212.795pt>
 File: Document_8h__incl.pdf Graphic file (type pdf)
 
 <use Document_8h__incl.pdf>
 Package pdftex.def Info: Document_8h__incl.pdf used on input line 16.
 (pdftex.def)             Requested size: 275.0pt x 212.02167pt.
 
-<Document_8h__dep__incl.pdf, id=1106, 506.89375pt x 156.585pt>
+<Document_8h__dep__incl.pdf, id=1734, 506.89375pt x 156.585pt>
 File: Document_8h__dep__incl.pdf Graphic file (type pdf)
 
 <use Document_8h__dep__incl.pdf>
 Package pdftex.def Info: Document_8h__dep__incl.pdf used on input line 23.
 (pdftex.def)             Requested size: 350.0pt x 108.12021pt.
 
-Underfull \vbox (badness 6220) has occurred while \output is active []
+Underfull \vbox (badness 1960) has occurred while \output is active []
 
- [28 <./Document_8h__incl.pdf>]pdfTeX warning (ext4): destination with the same
+ [26 <./Document_8h__incl.pdf>]pdfTeX warning (ext4): destination with the same
  identifier (name{namespacedocs_a4cf6dd6732c7e7ab7f7855e440485d89}) has been al
 ready used, duplicate ignored
 <to be read again> 
@@ -1519,68 +1464,114 @@ _a3f58481f03c01b3da04828585d14ff77}) has been already used, duplicate ignored
                    \relax 
 l.77 ...sheet\textbackslash{}\char`\"{}\char`\"{}}
                                                   \label{namespacedocs_a3f58...
-[29 <./Document_8h__dep__incl.pdf>]
-Underfull \hbox (badness 10000) detected at line 83
+[27 <./Document_8h__dep__incl.pdf>]pdfTeX warning (ext4): destination with the 
+same identifier (name{namespacedocs_a0a00c87ee0f345e683ff069a02063744}) has bee
+n already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.80 ...har`\"{} Documen\-Hierarchy\-: \char`\"{}}
+                                                  \label{namespacedocs_a0a00...
+pdfTeX warning (ext4): destination with the same identifier (name{namespacedocs
+_aef79f9b4462aa2823cf087845d6538ac}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.83 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespacedocs_aef79...
+pdfTeX warning (ext4): destination with the same identifier (name{namespacedocs
+_a2b31c3722f8c95ab2077b81a482ed12f}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespacedocs_a2b31...
+pdfTeX warning (ext4): destination with the same identifier (name{namespacedocs
+_a6b1de40afeb89c26d19404f0535ca62b}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespacedocs_a6b1d...
+pdfTeX warning (ext4): destination with the same identifier (name{namespacedocs
+_a40d84f797e577f18ef9b303de5a409b8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespacedocs_a40d8...
+
+Underfull \hbox (badness 10000) detected at line 98
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 86
+Underfull \hbox (badness 10000) detected at line 101
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 89
+Underfull \hbox (badness 10000) detected at line 104
 [][][]
  []
 
-) (./main_8cpp.tex <main_8cpp__incl.pdf, id=1161, 313.17pt x 269.005pt>
+) (./main_8cpp.tex <main_8cpp__incl.pdf, id=1798, 313.17pt x 269.005pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 
 <use main_8cpp__incl.pdf>
 Package pdftex.def Info: main_8cpp__incl.pdf used on input line 17.
 (pdftex.def)             Requested size: 312.0pt x 268.01099pt.
- [30 <./main_8cpp__incl.pdf>]
-Underfull \hbox (badness 10000) detected at line 31
+
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [28]
+Underfull \hbox (badness 10000) detected at line 40
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 34
+Underfull \hbox (badness 10000) detected at line 43
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 37
+Underfull \hbox (badness 10000) detected at line 46
 [][][]
  []
 
-[31]
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1188, 815.045pt x 6
-67.49374pt>
+[29 <./main_8cpp__incl.pdf>]
+Underfull \hbox (badness 1845) in paragraph at lines 119--120
+[]\T1/phv/m/n/10 References parray-::-String-Pointer-Array-::add(), docs-::-Web
+-Page-::get-Contents(), docs-::-Document-::get-Key-Words(),
+ []
+
+
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1832, 815.045pt x 5
+54.07pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
- used on input line 107.
-(pdftex.def)             Requested size: 350.0pt x 286.63986pt.
-)
+ used on input line 128.
+(pdftex.def)             Requested size: 350.0pt x 237.93263pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30])
 (./PointerArray_8cpp.tex
-<PointerArray_8cpp__incl.pdf, id=1191, 263.98625pt x 156.585pt>
+<PointerArray_8cpp__incl.pdf, id=1840, 263.98625pt x 156.585pt>
 File: PointerArray_8cpp__incl.pdf Graphic file (type pdf)
 
 <use PointerArray_8cpp__incl.pdf>
 Package pdftex.def Info: PointerArray_8cpp__incl.pdf used on input line 16.
 (pdftex.def)             Requested size: 263.0pt x 156.00879pt.
 
-<PointerArray_8cpp__dep__incl.pdf, id=1192, 506.89375pt x 212.795pt>
+<PointerArray_8cpp__dep__incl.pdf, id=1841, 506.89375pt x 212.795pt>
 File: PointerArray_8cpp__dep__incl.pdf Graphic file (type pdf)
 
 <use PointerArray_8cpp__dep__incl.pdf>
 Package pdftex.def Info: PointerArray_8cpp__dep__incl.pdf used on input line 23
 .
 (pdftex.def)             Requested size: 350.0pt x 146.9326pt.
- [32 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf> <./PointerArray
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf> <./PointerArray
 _8cpp__incl.pdf
 
 pdfTeX warning: pdflatex (file ./PointerArray_8cpp__incl.pdf): PDF inclusion: m
@@ -1593,37 +1584,58 @@ d
 l.43 ...e}{patch\-::to\-\_\-string} (const T \&n)}
                                                   \label{namespacepatch_a54d...
 pdfTeX warning (ext4): destination with the same identifier (name{namespaceparr
-ay_ae12e5e44ecdf5808872ebdc05476e93f}) has been already used, duplicate ignored
+ay_af364378bce8a0cb4cd0fc4a191684794}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
 l.49 ...= \char`\"{} Pointer\-Array\-: \char`\"{}}
-                                                  \label{namespaceparray_ae1...
+                                                  \label{namespaceparray_af3...
 pdfTeX warning (ext4): destination with the same identifier (name{namespaceparr
 ay_ab57bc1fd35280f9304abbf9755598710}) has been already used, duplicate ignored
 
 <to be read again> 
                    \relax 
-l.52 ...-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-I\-N\-F\-O}
+l.52 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
                                                   \label{namespaceparray_ab5...
+pdfTeX warning (ext4): destination with the same identifier (name{namespaceparr
+ay_a401700c1e4afddc55b1d33cbbc9327db}) has been already used, duplicate ignored
 
-Underfull \hbox (badness 10000) detected at line 58
+<to be read again> 
+                   \relax 
+l.55 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespaceparray_a40...
+pdfTeX warning (ext4): destination with the same identifier (name{namespaceparr
+ay_ae12e5e44ecdf5808872ebdc05476e93f}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.58 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespaceparray_ae1...
+pdfTeX warning (ext4): destination with the same identifier (name{namespaceparr
+ay_a6cd699f2dd9c98d7f9ac98fb178a8a4f}) has been already used, duplicate ignored
+
+<to be read again> 
+                   \relax 
+l.61 ...ar`\"{} + L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R}
+                                                  \label{namespaceparray_a6c...
+[32 <./PointerArray_8cpp__dep__incl.pdf>]
+Underfull \hbox (badness 10000) detected at line 67
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 61
+Underfull \hbox (badness 10000) detected at line 70
 [][][]
  []
 
-) (./Spreadsheet_8cpp.tex [33 <./PointerArray_8cpp__dep__incl.pdf>]
-<Spreadsheet_8cpp__incl.pdf, id=1238, 283.0575pt x 269.005pt>
+) (./Spreadsheet_8cpp.tex
+<Spreadsheet_8cpp__incl.pdf, id=1894, 283.0575pt x 269.005pt>
 File: Spreadsheet_8cpp__incl.pdf Graphic file (type pdf)
 
 <use Spreadsheet_8cpp__incl.pdf>
 Package pdftex.def Info: Spreadsheet_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 282.0pt x 268.0233pt.
-
+ [33 <./Spreadsheet_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -1633,18 +1645,18 @@ Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
-[34 <./Spreadsheet_8cpp__incl.pdf>]
+
 Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
 
-) (./WebPage_8cpp.tex <WebPage_8cpp__incl.pdf, id=1254, 277.035pt x 269.005pt>
+) (./WebPage_8cpp.tex <WebPage_8cpp__incl.pdf, id=1912, 277.035pt x 269.005pt>
 File: WebPage_8cpp__incl.pdf Graphic file (type pdf)
 
 <use WebPage_8cpp__incl.pdf>
 Package pdftex.def Info: WebPage_8cpp__incl.pdf used on input line 14.
 (pdftex.def)             Requested size: 276.0pt x 268.00278pt.
-
+ [34 <./WebPage_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 25
 [][][]
  []
@@ -1654,50 +1666,488 @@ Underfull \hbox (badness 10000) detected at line 28
 [][][]
  []
 
-[35 <./WebPage_8cpp__incl.pdf>]
+
 Underfull \hbox (badness 10000) detected at line 31
 [][][]
  []
 
-) [36]
+) [35]
 No file refman.ind.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
 (./refman.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 167.
-Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 95F1D12F9EC61C31B634BBBA11F00307;9549.
 
+
+Package rerunfilecheck Warning: File `refman.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `refman.out':
+(rerunfilecheck)             Before: 15CEA983CA08956D0FDF0247D98D6C39;28897
+(rerunfilecheck)             After:  95F1D12F9EC61C31B634BBBA11F00307;9549.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
- 12785 strings out of 494958
- 189973 string characters out of 6179213
- 260046 words of memory out of 5000000
- 15467 multiletter control sequences out of 15000+600000
+ 13062 strings out of 494958
+ 195859 string characters out of 6179213
+ 260549 words of memory out of 5000000
+ 15612 multiletter control sequences out of 15000+600000
  96197 words of font info for 144 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 48i,12n,43p,1131b,539s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic
-/uhvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (40 pages, 239125 bytes).
+ 48i,13n,43p,918b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{WebPage_8cpp_source} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Spreadsheet_8cpp_source} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{PointerArray_8cpp_source} has been referenced but d
+oes not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{main_8cpp_source} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Document_8h_source} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Document_8cpp_source} has been referenced but does 
+not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.7.4.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.7.3.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.7.3.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.7.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.7.3.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.6.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.9} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.8} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.7} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.2.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.6.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.5.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.5.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.5.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.5.2.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.5.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.5.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.4.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.7} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.2.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.4.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.5.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.5.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.5.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.4.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.21} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.20} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.19} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.18} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.17} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.16} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.15} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.14} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.13} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.12} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.11} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.10} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.9} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.8} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.7} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.2.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.3.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.5.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.5.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.5.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.2.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.4.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.2.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.11} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.10} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.9} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.8} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.7} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.2.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.2.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.2.2.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.5.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.1.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.4.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.1.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.3.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.3.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.6.1.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.6.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.3.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.2.2.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.2.2.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.2.2.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.2.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.2.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.14} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.13} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.12} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.11} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.10} has been referenced but doe
+s not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.9} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.8} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.7} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.6} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.5} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.4} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.5.1.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.1.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/u
+hvb8ac.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (43 pages, 252953 bytes).
 PDF statistics:
- 1366 PDF objects out of 1440 (max. 8388607)
- 1258 compressed objects within 13 object streams
- 272 named destinations out of 1000 (max. 500000)
- 567 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2057 PDF objects out of 2073 (max. 8388607)
+ 1941 compressed objects within 20 object streams
+ 405 named destinations out of 1000 (max. 500000)
+ 1666 words of extra memory for PDF output out of 10000 (max. 10000000)
 

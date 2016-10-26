@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['tester',['tester',['../classparray_1_1StringPointerArray.html#abfac13570bec8c88311714d19ddea59b',1,'parray::StringPointerArray']]],
-  ['to_5fstring',['to_string',['../namespacepatch.html#a54d2400c78aef13e3748a87cd7c86ede',1,'patch']]],
-  ['tostring',['toString',['../classdocs_1_1Document.html#a16db383045038b779eb489ad125ef02b',1,'docs::Document::toString()'],['../classdocs_1_1WebPage.html#ac3d747b84fa4e357791faab5994ccc22',1,'docs::WebPage::toString()'],['../classdocs_1_1Spreadsheet.html#ab288d28a2f204e28f0c5d7a097f43bfa',1,'docs::Spreadsheet::toString()'],['../classparray_1_1PointerArray.html#a4c6e34cad01f5f72dd6c5de917ed3a34',1,'parray::PointerArray::toString()']]]
+  ['webpage',['WebPage',['../classdocs_1_1WebPage.html#a9642db10cbcecf7fd93338f936318e90',1,'docs::WebPage::WebPage(std::string title=DEFAULT_DOCUMENT_TITLE, std::string url=DEFAULT_WEBPAGE_URL, int keyWordSize=DEFAULT_DOCUMENT_KWSIZE, int textSize=DEFAULT_WEBPAGE_TEXTSIZE)'],['../classdocs_1_1WebPage.html#a7013883a569946e65ba6522c878b0517',1,'docs::WebPage::WebPage(const parray::StringPointerArray &amp;kws, const parray::StringPointerArray &amp;tex=0, std::string title=DEFAULT_DOCUMENT_TITLE, std::string url=DEFAULT_WEBPAGE_URL)'],['../classdocs_1_1WebPage.html#a4c2ea40e27d1763d3f7c2c5055518a41',1,'docs::WebPage::WebPage(const WebPage &amp;original)']]]
 ];

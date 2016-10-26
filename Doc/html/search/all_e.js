@@ -1,17 +1,7 @@
 var searchData=
 [
-  ['set',['set',['../classparray_1_1PointerArray.html#a058d80ea7a679e6299126eaa2f7b3f82',1,'parray::PointerArray']]],
-  ['setcoloumncnt',['setColoumnCnt',['../classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2',1,'docs::Spreadsheet']]],
-  ['setcontents',['setContents',['../classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419',1,'docs::WebPage']]],
-  ['setkeywords',['setKeyWords',['../classdocs_1_1Document.html#a99cde56ac7b8b230184b938cf55ce17e',1,'docs::Document']]],
-  ['setrowcnt',['setRowCnt',['../classdocs_1_1Spreadsheet.html#a2178260b64460a010251eba24513bb9d',1,'docs::Spreadsheet']]],
-  ['setsize',['setSize',['../classparray_1_1PointerArray.html#ae3fb455ddc80180a3a7b130cb2c4d903',1,'parray::PointerArray']]],
-  ['settitle',['setTitle',['../classdocs_1_1Document.html#afdf0fd42a3afe3c7c2523b3ee16d09e0',1,'docs::Document']]],
-  ['seturl',['setUrl',['../classdocs_1_1WebPage.html#a46ae47ff938c8b9a4081c17b2c307ef9',1,'docs::WebPage']]],
-  ['size',['size',['../classparray_1_1PointerArray.html#a3152cfa7b5f1249c42fd8b9d9a17c380',1,'parray::PointerArray']]],
-  ['spreadsheet',['Spreadsheet',['../classdocs_1_1Spreadsheet.html',1,'docs']]],
-  ['spreadsheet',['Spreadsheet',['../classdocs_1_1Spreadsheet.html#ac6e95d685e342630144afaad04c99c74',1,'docs::Spreadsheet::Spreadsheet(int coloumnCnt=DEFAULT_SPREADSHEET_COLCNT, int rowCnt=DEFAULT_SPREADSHEET_ROWCNT, std::string title=DEFAULT_DOCUMENT_TITLE, int keyWordSize=DEFAULT_DOCUMENT_KWSIZE)'],['../classdocs_1_1Spreadsheet.html#a6dae1de9618f2e4226fde62477858e05',1,'docs::Spreadsheet::Spreadsheet(const parray::StringPointerArray &amp;kws, std::string title=DEFAULT_DOCUMENT_TITLE, int coloumnCnt=DEFAULT_SPREADSHEET_COLCNT, int rowCnt=DEFAULT_SPREADSHEET_ROWCNT)'],['../classdocs_1_1Spreadsheet.html#a7bbb06aa9261596202f71c65c5400ff2',1,'docs::Spreadsheet::Spreadsheet(const Spreadsheet &amp;original)'],['../namespacedocs.html#a150efca62822b8ab62a5afabe299bf75a7c469773c8012b650a4db4d9f46e343a',1,'docs::SPREADSHEET()']]],
-  ['spreadsheet_2ecpp',['Spreadsheet.cpp',['../Spreadsheet_8cpp.html',1,'']]],
-  ['stringpointerarray',['StringPointerArray',['../classparray_1_1StringPointerArray.html',1,'parray']]],
-  ['stringpointerarray',['StringPointerArray',['../classparray_1_1StringPointerArray.html#a3dcc569f7833b31b26bb72570bdc7067',1,'parray::StringPointerArray::StringPointerArray()'],['../classparray_1_1StringPointerArray.html#ae31ac6c33c13c602d3cbee3ca4aed10c',1,'parray::StringPointerArray::StringPointerArray(const int length)'],['../classparray_1_1StringPointerArray.html#a6566d7032d0c519b440220df77651345',1,'parray::StringPointerArray::StringPointerArray(const StringPointerArray &amp;original)']]]
+  ['web_5fpage',['WEB_PAGE',['../namespacedocs.html#a150efca62822b8ab62a5afabe299bf75a1660685efab992a33bb802d68b4e8c13',1,'docs']]],
+  ['webpage',['WebPage',['../classdocs_1_1WebPage.html',1,'docs']]],
+  ['webpage',['WebPage',['../classdocs_1_1WebPage.html#a9642db10cbcecf7fd93338f936318e90',1,'docs::WebPage::WebPage(std::string title=DEFAULT_DOCUMENT_TITLE, std::string url=DEFAULT_WEBPAGE_URL, int keyWordSize=DEFAULT_DOCUMENT_KWSIZE, int textSize=DEFAULT_WEBPAGE_TEXTSIZE)'],['../classdocs_1_1WebPage.html#a7013883a569946e65ba6522c878b0517',1,'docs::WebPage::WebPage(const parray::StringPointerArray &amp;kws, const parray::StringPointerArray &amp;tex=0, std::string title=DEFAULT_DOCUMENT_TITLE, std::string url=DEFAULT_WEBPAGE_URL)'],['../classdocs_1_1WebPage.html#a4c2ea40e27d1763d3f7c2c5055518a41',1,'docs::WebPage::WebPage(const WebPage &amp;original)']]],
+  ['webpage_2ecpp',['WebPage.cpp',['../WebPage_8cpp.html',1,'']]]
 ];

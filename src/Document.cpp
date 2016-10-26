@@ -17,27 +17,28 @@ namespace docs{
 	Document::Document( std::string title, int keyWordSize)
 			: typeId( DOCUMENT),  title( title),
 			  keyWords(new parray::StringPointerArray( keyWordSize)){
-		std::cout << "Constructing doc: " << typeId << std::endl;
+		std::cout << LOG_HEADER_INFO << "Constructing doc: " << typeId << std::endl;
 	}
 	Document::Document( const DocType type, std::string title, int keyWordSize)
 			: typeId( type), title( title),
 			  keyWords( new parray::StringPointerArray( keyWordSize)) {
-		std::cout << "Constructing doc: " << type << std::endl;
+		std::cout << LOG_HEADER_INFO << "Constructing doc: " << type << std::endl;
 	}
 
 	Document::Document( const parray::StringPointerArray& kw, std::string title)
 			: typeId( DOCUMENT), title( title),
 			  keyWords( new parray::StringPointerArray( kw)){
-		std::cout << "Constructing doc: " << typeId << std::endl;
+		std::cout << LOG_HEADER_INFO << "Constructing doc: " << typeId << std::endl;
 	}
 	Document::Document( const DocType type, const parray::StringPointerArray& kw, std::string title)
 				: typeId( type), title( title),
 				  keyWords( new parray::StringPointerArray( kw)){
-		std::cout << "Constructing doc: " << type << std::endl;
+		std::cout << LOG_HEADER_INFO << "Constructing doc: " << type << std::endl;
 	}
 
 	Document::Document( const Document& original)
 			: typeId( original.typeId) {
+		std::cout << LOG_HEADER_INFO << "Construct a copy of: " << original << std::endl;
 		keyWords = 0;
 		copy( original);
 	}
@@ -45,7 +46,7 @@ namespace docs{
 
 	// ############################ DESTRUCTOR ############################
 	Document::~Document() {
-		std::cout << this << " -> " << typeId << " delete key words container.";
+		std::cout << this << " -> " << typeId << " delete key words container..." << std::endl << "\t\t...";
 		if( keyWords != 0)
 			delete keyWords;
 		keyWords = 0;

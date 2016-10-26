@@ -35,7 +35,7 @@ Collaboration diagram for parray\-:\-:String\-Pointer\-Array\-:\nopagebreak
 \begin{DoxyCompactList}\small\item\em constructor a new array of given length, based on \hyperlink{classparray_1_1PointerArray_a4e39d7adf15e94c02dfe2662c181f0c6}{Pointer\-Array\-::\-Pointer\-Array( int)}. \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1StringPointerArray_a6566d7032d0c519b440220df77651345}{\hyperlink{classparray_1_1StringPointerArray_a6566d7032d0c519b440220df77651345}{String\-Pointer\-Array} (const \hyperlink{classparray_1_1StringPointerArray}{String\-Pointer\-Array} \&original)}\label{classparray_1_1StringPointerArray_a6566d7032d0c519b440220df77651345}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{Pointer\-Array\-::copy()} constructor, based on Pointer\-Array\-::\-Pointer\-Array( Pointer\-Array). \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Pointer\-Array\-::copy() constructor, based on Pointer\-Array\-::\-Pointer\-Array( Pointer\-Array). \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1StringPointerArray_a66e413fa7aedbfe9b45c87d8641ea36e}{virtual \hyperlink{classparray_1_1StringPointerArray_a66e413fa7aedbfe9b45c87d8641ea36e}{$\sim$\-String\-Pointer\-Array} ()}\label{classparray_1_1StringPointerArray_a66e413fa7aedbfe9b45c87d8641ea36e}
 
 \begin{DoxyCompactList}\small\item\em empty destructor, it relies on the base implementation. \end{DoxyCompactList}\item 
@@ -47,12 +47,6 @@ Collaboration diagram for parray\-:\-:String\-Pointer\-Array\-:\nopagebreak
 \item 
 static void \hyperlink{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}{tester} ()
 \begin{DoxyCompactList}\small\item\em static method to test the behavior of a \hyperlink{classparray_1_1PointerArray}{Pointer\-Array} of strings. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Static Private Member Functions}
-\begin{DoxyCompactItemize}
-\item 
-\hypertarget{classparray_1_1StringPointerArray_a17703cd98a2019970fccba1bc7e51c8e}{static void \hyperlink{classparray_1_1StringPointerArray_a17703cd98a2019970fccba1bc7e51c8e}{print\-Test\-Delitator} ()}\label{classparray_1_1StringPointerArray_a17703cd98a2019970fccba1bc7e51c8e}
-
-\begin{DoxyCompactList}\small\item\em prints a line to separe different tests used in \hyperlink{classparray_1_1StringPointerArray_abfac13570bec8c88311714d19ddea59b}{tester()} function \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Detailed Description}
@@ -61,6 +55,10 @@ It implements a \hyperlink{classparray_1_1PointerArray_ab506b284822d1e013813579e
 \begin{DoxySeeAlso}{See Also}
 \hyperlink{classparray_1_1PointerArray}{Pointer\-Array} 
 \end{DoxySeeAlso}
+
+
+Definition at line 280 of file Pointer\-Array.\-cpp.
+
 
 
 \subsection{Member Function Documentation}
@@ -85,19 +83,32 @@ Populate (\hyperlink{classparray_1_1StringPointerArray_a5b79fa79d5aa75cd4572e7b8
 
 Make a comparison (\hyperlink{classparray_1_1PointerArray_a050d55aeebf51f02bf59d8352664528d}{String\-Pointer\-Array\-::operator==()}) between two \hyperlink{classparray_1_1StringPointerArray_a3dcc569f7833b31b26bb72570bdc7067}{String\-Pointer\-Array} (pa0 == pa1)
 
-Creates (pa2) a copy (\hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{String\-Pointer\-Array\-::copy()} and String\-Pointer\-Array(\-String\-Pointer\-Array)) of pa1.
+Creates (pa2) a copy (String\-Pointer\-Array\-::copy() and String\-Pointer\-Array(\-String\-Pointer\-Array)) of pa1.
 
 \hyperlink{classparray_1_1PointerArray_a13ae3b9b2118416351cc63bd456ecf73}{String\-Pointer\-Array\-::remove()} all its elements and makes a comparison.
 
 Adds two strings to pa2.
 
-Creates (pa3) a \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{copy()} of pa2 and remove the first element.
+Creates (pa3) a \#copy() of pa2 and remove the first element.
 
 Makes a comparison (pa3 == pa2) and \hyperlink{classparray_1_1PointerArray_a13883fc7ef994a50a83ae3f9ddc4db27}{pack()} pa2.
 
 \hyperlink{classparray_1_1PointerArray_a6d4347a899d2783d23775957ad71f743}{resize()} pa1 to be bigger and smaller. 
 
-Here is the call graph for this function\-:\nopagebreak
+Definition at line 304 of file Pointer\-Array.\-cpp.
+
+
+
+References add(), parray\-::\-Pointer\-Array$<$ T $>$\-::clear(), parray\-::\-L\-O\-G\-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-T\-E\-S\-T, parray\-::\-Pointer\-Array$<$ T $>$\-::pack(), parray\-::\-Pointer\-Array$<$ T $>$\-::remove(), parray\-::\-Pointer\-Array$<$ T $>$\-::resize(), and parray\-::\-Pointer\-Array$<$ T $>$\-::set\-Size().
+
+
+
+Referenced by main().
+
+
+
+Here is the call graph for this function\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode

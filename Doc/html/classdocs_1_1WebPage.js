@@ -12,7 +12,5 @@ var classdocs_1_1WebPage =
     [ "getUrl", "classdocs_1_1WebPage.html#aaeac2076cad36b3dd2c3ea090e4712e0", null ],
     [ "setContents", "classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419", null ],
     [ "setUrl", "classdocs_1_1WebPage.html#a46ae47ff938c8b9a4081c17b2c307ef9", null ],
-    [ "toString", "classdocs_1_1WebPage.html#ac3d747b84fa4e357791faab5994ccc22", null ],
-    [ "contents", "classdocs_1_1WebPage.html#a67d46a145ff4e7093fb1b8f56e539895", null ],
-    [ "url", "classdocs_1_1WebPage.html#a4495e463a26d77b22ec4d8af690bbb11", null ]
+    [ "toString", "classdocs_1_1WebPage.html#ac3d747b84fa4e357791faab5994ccc22", null ]
 ];

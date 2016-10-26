@@ -30,6 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DocumentClassHierarchy
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -105,8 +106,6 @@ $(document).ready(function(){initNavTree('classparray_1_1PointerArray.html','');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
 <a href="classparray_1_1PointerArray-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -116,11 +115,6 @@ $(document).ready(function(){initNavTree('classparray_1_1PointerArray.html','');
 
 <p>This class describes a manager of a dynamic array of generic type T*.  
  <a href="classparray_1_1PointerArray.html#details">More...</a></p>
-<div class="dynheader">
-Collaboration diagram for parray::PointerArray&lt; T &gt;:</div>
-<div class="dyncontent">
-<div class="center"><img src="classparray_1_1PointerArray__coll__graph.png" border="0" usemap="#parray_1_1PointerArray_3_01T_01_4_coll__map" alt="Collaboration graph"/></div>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -134,7 +128,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4e39d7adf15e94c02dfe2662c181f0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab763be75c142552337e545ca0a27d93e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab763be75c142552337e545ca0a27d93e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#ab763be75c142552337e545ca0a27d93e">PointerArray</a> (const <a class="el" href="classparray_1_1PointerArray.html">PointerArray</a>&lt; T &gt; &amp;original)</td></tr>
-<tr class="memdesc:ab763be75c142552337e545ca0a27d93e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classparray_1_1PointerArray.html#a3010540e156076377ffd4428b05e1ac2" title="make a new copy in memory (based on newSet()). ">copy()</a> constructors <br/></td></tr>
+<tr class="memdesc:ab763be75c142552337e545ca0a27d93e"><td class="mdescLeft">&#160;</td><td class="mdescRight">#copy() constructors <br/></td></tr>
 <tr class="separator:ab763be75c142552337e545ca0a27d93e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b59a3fe4f7e83d83231d9daf8210333"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3b59a3fe4f7e83d83231d9daf8210333"></a>
 virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#a3b59a3fe4f7e83d83231d9daf8210333">~PointerArray</a> ()</td></tr>
@@ -200,7 +194,7 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="separator:a2ca07f329b7568d2bdd4ea50ba153a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc9c164599807ed762727667f6b6bf13"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc9c164599807ed762727667f6b6bf13"></a>
 <a class="el" href="classparray_1_1PointerArray.html">PointerArray</a>&lt; T &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#acc9c164599807ed762727667f6b6bf13">operator=</a> (const <a class="el" href="classparray_1_1PointerArray.html">PointerArray</a>&lt; T &gt; &amp;newCopy)</td></tr>
-<tr class="memdesc:acc9c164599807ed762727667f6b6bf13"><td class="mdescLeft">&#160;</td><td class="mdescRight">make a <a class="el" href="classparray_1_1PointerArray.html#a3010540e156076377ffd4428b05e1ac2" title="make a new copy in memory (based on newSet()). ">copy()</a> of this array. <br/></td></tr>
+<tr class="memdesc:acc9c164599807ed762727667f6b6bf13"><td class="mdescLeft">&#160;</td><td class="mdescRight">make a #copy() of this array. <br/></td></tr>
 <tr class="separator:acc9c164599807ed762727667f6b6bf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf7c87ef3e5b66d11137209d45701975"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf7c87ef3e5b66d11137209d45701975"></a>
 virtual const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#adf7c87ef3e5b66d11137209d45701975">isEmpty</a> () const </td></tr>
@@ -210,36 +204,6 @@ virtual const bool&#160;</td><td class="memItemRight" valign="bottom"><a class="
 bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#ac1aa766707215ddeecbf23a0648644c5">operator!</a> () const </td></tr>
 <tr class="memdesc:ac1aa766707215ddeecbf23a0648644c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns <a class="el" href="classparray_1_1PointerArray.html#adf7c87ef3e5b66d11137209d45701975" title="returns true if there are no elements in the array. ">isEmpty()</a>. <br/></td></tr>
 <tr class="separator:ac1aa766707215ddeecbf23a0648644c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ac45bf71fe7c82789e7dd135aece4692a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac45bf71fe7c82789e7dd135aece4692a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#ac45bf71fe7c82789e7dd135aece4692a">init</a> (int length)</td></tr>
-<tr class="memdesc:ac45bf71fe7c82789e7dd135aece4692a"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialises a new array of given lenght (based on <a class="el" href="classparray_1_1PointerArray.html#afc7385141e8217e1ebe3b2a3a3a40679" title="allocate a new memory of this object size. Delete old memory if is not invalidated. ">newSet()</a>). <br/></td></tr>
-<tr class="separator:ac45bf71fe7c82789e7dd135aece4692a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc7385141e8217e1ebe3b2a3a3a40679"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc7385141e8217e1ebe3b2a3a3a40679"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#afc7385141e8217e1ebe3b2a3a3a40679">newSet</a> ()</td></tr>
-<tr class="memdesc:afc7385141e8217e1ebe3b2a3a3a40679"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate a new memory of this object size. Delete old memory if is not invalidated. <br/></td></tr>
-<tr class="separator:afc7385141e8217e1ebe3b2a3a3a40679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3010540e156076377ffd4428b05e1ac2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3010540e156076377ffd4428b05e1ac2"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#a3010540e156076377ffd4428b05e1ac2">copy</a> (const <a class="el" href="classparray_1_1PointerArray.html">PointerArray</a>&lt; T &gt; &amp;original)</td></tr>
-<tr class="memdesc:a3010540e156076377ffd4428b05e1ac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">make a new copy in memory (based on <a class="el" href="classparray_1_1PointerArray.html#afc7385141e8217e1ebe3b2a3a3a40679" title="allocate a new memory of this object size. Delete old memory if is not invalidated. ">newSet()</a>). <br/></td></tr>
-<tr class="separator:a3010540e156076377ffd4428b05e1ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a3152cfa7b5f1249c42fd8b9d9a17c380"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3152cfa7b5f1249c42fd8b9d9a17c380"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#a3152cfa7b5f1249c42fd8b9d9a17c380">size</a></td></tr>
-<tr class="memdesc:a3152cfa7b5f1249c42fd8b9d9a17c380"><td class="mdescLeft">&#160;</td><td class="mdescRight">the size of the dynamic array <br/></td></tr>
-<tr class="separator:a3152cfa7b5f1249c42fd8b9d9a17c380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf856470924385ecbab1c075552e81a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaf856470924385ecbab1c075552e81a8"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#aaf856470924385ecbab1c075552e81a8">cnt</a></td></tr>
-<tr class="memdesc:aaf856470924385ecbab1c075552e81a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the number of elements in the array <br/></td></tr>
-<tr class="separator:aaf856470924385ecbab1c075552e81a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a058d80ea7a679e6299126eaa2f7b3f82"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a058d80ea7a679e6299126eaa2f7b3f82"></a>
-T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classparray_1_1PointerArray.html#a058d80ea7a679e6299126eaa2f7b3f82">set</a></td></tr>
-<tr class="memdesc:a058d80ea7a679e6299126eaa2f7b3f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">the head of the array <br/></td></tr>
-<tr class="separator:a058d80ea7a679e6299126eaa2f7b3f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -262,6 +226,8 @@ class parray::PointerArray&lt; T &gt;</h3>
 
 <p>This class describes a manager of a dynamic array of generic type T*. </p>
 <p>It manage manipulation, creation, copy and destruction, as well as basic operator overloading. In details, the array is specified by: a pointer to the head, a size integer and a cnt meaning the number of elements currently in the array. </p>
+
+<p>Definition at line <a class="el" href="PointerArray_8cpp_source.html#l00054">54</a> of file <a class="el" href="PointerArray_8cpp_source.html">PointerArray.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="aa009614c6819fe08b7eef78be4394dbc"></a>
 <div class="memitem">
@@ -288,10 +254,12 @@ template&lt;class T&gt; </div>
 </div><div class="memdoc">
 <p>returns <a class="el" href="classparray_1_1PointerArray.html#a97dbb10226a33da7823685fafe609194" title="returns an element of the array by index. ">get()</a>. </p>
 
+<p>Definition at line <a class="el" href="PointerArray_8cpp_source.html#l00107">107</a> of file <a class="el" href="PointerArray_8cpp_source.html">PointerArray.cpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/<a class="el" href="PointerArray_8cpp.html">PointerArray.cpp</a></li>
+<li>src/<a class="el" href="PointerArray_8cpp_source.html">PointerArray.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -299,7 +267,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceparray.html">parray</a></li><li class="navelem"><a class="el" href="classparray_1_1PointerArray.html">PointerArray</a></li>
-    <li class="footer">Generated on Tue Oct 18 2016 13:06:45 for DocumentClassHierarchy by
+    <li class="footer">Generated on Wed Oct 26 2016 16:07:32 for DocumentClassHierarchy by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

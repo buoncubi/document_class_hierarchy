@@ -1,6 +1,9 @@
 var searchData=
 [
-  ['cnt',['cnt',['../classparray_1_1PointerArray.html#aaf856470924385ecbab1c075552e81a8',1,'parray::PointerArray']]],
-  ['coloumncnt',['coloumnCnt',['../classdocs_1_1Spreadsheet.html#a8193931da11e83c62b3aa1c2177e9e33',1,'docs::Spreadsheet']]],
-  ['contents',['contents',['../classdocs_1_1WebPage.html#a67d46a145ff4e7093fb1b8f56e539895',1,'docs::WebPage']]]
+  ['default_5fdocument_5fkwsize',['DEFAULT_DOCUMENT_KWSIZE',['../namespacedocs.html#ae635b9481a61628036b5a97625856475',1,'docs']]],
+  ['default_5fdocument_5ftitle',['DEFAULT_DOCUMENT_TITLE',['../namespacedocs.html#a4cf6dd6732c7e7ab7f7855e440485d89',1,'docs']]],
+  ['default_5fspreadsheet_5fcolcnt',['DEFAULT_SPREADSHEET_COLCNT',['../namespacedocs.html#aa40437dd2d0305c57f338406303a3f58',1,'docs']]],
+  ['default_5fspreadsheet_5frowcnt',['DEFAULT_SPREADSHEET_ROWCNT',['../namespacedocs.html#a7562daac15433871b1cc71ad74555032',1,'docs']]],
+  ['default_5fwebpage_5ftextsize',['DEFAULT_WEBPAGE_TEXTSIZE',['../namespacedocs.html#a966b8c0a825e3e04a2c667abefa97f41',1,'docs']]],
+  ['default_5fwebpage_5furl',['DEFAULT_WEBPAGE_URL',['../namespacedocs.html#a9bfb062436ca30729256c522cf54c111',1,'docs']]]
 ];

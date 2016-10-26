@@ -30,6 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DocumentClassHierarchy
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -102,7 +103,8 @@ $(document).ready(function(){initNavTree('main_8cpp.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">main.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -113,7 +115,7 @@ $(document).ready(function(){initNavTree('main_8cpp.html','');});
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br/>
 <code>#include &lt;list&gt;</code><br/>
 <code>#include &quot;<a class="el" href="Document_8h_source.html">Document.h</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="PointerArray_8cpp.html">PointerArray.cpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="PointerArray_8cpp_source.html">PointerArray.cpp</a>&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
@@ -121,7 +123,9 @@ Include dependency graph for main.cpp:</div>
 <map name="src_2main_8cpp" id="src_2main_8cpp">
 <area shape="rect" id="node4" href="Document_8h.html" title="The complete Document Hierarchy namespce specification. " alt="" coords="75,80,168,107"/><area shape="rect" id="node5" href="PointerArray_8cpp.html" title="The complete parray (parray::PointerArray&lt;T&gt;) and patch names paces definition. " alt="" coords="144,155,262,181"/></map>
 </div>
-</div><table class="memberdecls">
+</div>
+<p><a href="main_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa645d2537e6a806927c27a664653c0f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa645d2537e6a806927c27a664653c0f3"></a>
@@ -131,6 +135,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the main function to check project consistency by console logging.  <a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br/></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8a88a3abda9aee2e2129eef006a3e59c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a88a3abda9aee2e2129eef006a3e59c"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a8a88a3abda9aee2e2129eef006a3e59c">LOG_HEADER</a> = &quot; Main: &quot;</td></tr>
+<tr class="memdesc:a8a88a3abda9aee2e2129eef006a3e59c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by this manager <br/></td></tr>
+<tr class="separator:a8a88a3abda9aee2e2129eef006a3e59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a91b809e8716e10fd15178245982361"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a91b809e8716e10fd15178245982361"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a5a91b809e8716e10fd15178245982361">LOG_HEADER_TEST</a> = &quot;\t[TEST] &quot; + LOG_HEADER</td></tr>
+<tr class="memdesc:a5a91b809e8716e10fd15178245982361"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by the StringPointerArray::tester() <br/></td></tr>
+<tr class="separator:a5a91b809e8716e10fd15178245982361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>implements a main function to check the behavior of the <a class="el" href="namespaceparray.html" title="it specify the dynamic array manager for a generic data T and a std::string specialisation. ">parray</a> template and <a class="el" href="namespacedocs.html" title="This namespace is used to collect all the document hierarchy classes and types. ">docs</a> hierarchy. </p>
@@ -147,6 +162,8 @@ SpreadSheet </dd>
 WebPage </dd>
 <dd>
 <a class="el" href="namespacedocs.html" title="This namespace is used to collect all the document hierarchy classes and types. ">docs</a> </dd></dl>
+
+<p>Definition in file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <div class="memitem">
@@ -182,12 +199,16 @@ WebPage </dd>
 <p>create a new SpreadSheet as the copy of the previous and set the title.</p>
 <p>put all the created Document in a list and print its contents. </p>
 
+<p>Definition at line <a class="el" href="main_8cpp_source.html#l00039">39</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+<p>References <a class="el" href="PointerArray_8cpp_source.html#l00293">parray::StringPointerArray::add()</a>, <a class="el" href="WebPage_8cpp_source.html#l00074">docs::WebPage::getContents()</a>, <a class="el" href="Document_8cpp_source.html#l00109">docs::Document::getKeyWords()</a>, <a class="el" href="Document_8cpp_source.html#l00100">docs::Document::getTitle()</a>, <a class="el" href="main_8cpp_source.html#l00035">LOG_HEADER_TEST</a>, <a class="el" href="main_8cpp_source.html#l00023">logTest()</a>, <a class="el" href="PointerArray_8cpp_source.html#l00177">parray::PointerArray&lt; T &gt;::pack()</a>, <a class="el" href="PointerArray_8cpp_source.html#l00136">parray::PointerArray&lt; T &gt;::remove()</a>, <a class="el" href="PointerArray_8cpp_source.html#l00152">parray::PointerArray&lt; T &gt;::resize()</a>, <a class="el" href="Spreadsheet_8cpp_source.html#l00066">docs::Spreadsheet::setColoumnCnt()</a>, <a class="el" href="WebPage_8cpp_source.html#l00077">docs::WebPage::setContents()</a>, <a class="el" href="PointerArray_8cpp_source.html#l00085">parray::PointerArray&lt; T &gt;::setSize()</a>, <a class="el" href="Document_8cpp_source.html#l00103">docs::Document::setTitle()</a>, and <a class="el" href="PointerArray_8cpp_source.html#l00304">parray::StringPointerArray::tester()</a>.</p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
 <map name="main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
-<area shape="rect" id="node2" href="main_8cpp.html#aa645d2537e6a806927c27a664653c0f3" title="function used to highlights debugging logs by printing a frame of &#39;#&#39;. " alt="" coords="174,120,239,147"/><area shape="rect" id="node3" href="classparray_1_1StringPointerArray.html#abfac13570bec8c88311714d19ddea59b" title="static method to test the behavior of a PointerArray of strings. " alt="" coords="121,222,293,263"/><area shape="rect" id="node4" href="classparray_1_1StringPointerArray.html#a5b79fa79d5aa75cd4572e7b87f6da25f" title="overload the PointerArray::add() method by call resize if the array is full (generate warning)..." alt="" coords="358,19,559,45"/><area shape="rect" id="node5" href="classparray_1_1PointerArray.html#a6d4347a899d2783d23775957ad71f743" title="replace the array with a new memory of the defined size. Possible old values are copied from start up..." alt="" coords="613,70,760,111"/><area shape="rect" id="node11" href="classparray_1_1PointerArray.html#a13ae3b9b2118416351cc63bd456ecf73" title="remove an element from the array (based on find() and remove(int)). " alt="" coords="389,251,528,293"/><area shape="rect" id="node12" href="classparray_1_1PointerArray.html#ae3fb455ddc80180a3a7b130cb2c4d903" title="set the size of a new empty array on memory and delete the previous. " alt="" coords="389,317,528,358"/><area shape="rect" id="node13" href="classparray_1_1PointerArray.html#a13883fc7ef994a50a83ae3f9ddc4db27" title="replace the array by removing empty cell on tail (size will be equal to cnt). Based on resize()..." alt="" coords="389,382,528,423"/><area shape="rect" id="node15" href="classdocs_1_1Document.html#a500da2818240e2b29c1e4510b8724f4f" title="returns the manager of the keyWords array of this document. " alt="" coords="104,491,309,517"/><area shape="rect" id="node16" href="classdocs_1_1Document.html#afdf0fd42a3afe3c7c2523b3ee16d09e0" title="set a title to this document. " alt="" coords="122,541,291,568"/><area shape="rect" id="node17" href="classdocs_1_1Document.html#a06b90f239984c69784c877d670943fb5" title="return the title of this document " alt="" coords="122,592,291,619"/><area shape="rect" id="node18" href="classdocs_1_1WebPage.html#ad2efbd306365a023f52c5c93caa4e638" title="returns the manager of the contents array of this document. " alt="" coords="109,643,304,669"/><area shape="rect" id="node19" href="classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419" title="set a copy of the input contents and overwrites the previous. " alt="" coords="109,693,304,720"/><area shape="rect" id="node20" href="classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2" title="set the number of columns (coloumnCnt) of this Spreadsheet. " alt="" coords="137,745,276,786"/><area shape="rect" id="node10" href="classparray_1_1StringPointerArray.html#a17703cd98a2019970fccba1bc7e51c8e" title="prints a line to separe different tests used in tester() function " alt="" coords="373,121,545,162"/><area shape="rect" id="node14" href="classparray_1_1PointerArray.html#a2c61803a24765673a1f59ba194566946" title="delete the array and create a new memory location of the same size. " alt="" coords="389,186,528,227"/><area shape="rect" id="node9" href="classparray_1_1PointerArray.html#ac676a9ef1cc04a9aab5f9b744142bf61" title="returns the actual size of the array. " alt="" coords="609,5,765,46"/><area shape="rect" id="node6" href="classparray_1_1PointerArray.html#a3010540e156076377ffd4428b05e1ac2" title="make a new copy in memory (based on newSet()). " alt="" coords="828,5,967,46"/><area shape="rect" id="node7" href="classparray_1_1PointerArray.html#afc7385141e8217e1ebe3b2a3a3a40679" title="allocate a new memory of this object size. Delete old memory if is not invalidated. " alt="" coords="828,70,967,111"/><area shape="rect" id="node8" href="classparray_1_1PointerArray.html#ae080aeced3af072006e4a609fdadb838" title="add an element into the array. Returns false if the array is full " alt="" coords="814,136,981,163"/></map>
+<area shape="rect" id="node2" href="classparray_1_1StringPointerArray.html#a5b79fa79d5aa75cd4572e7b87f6da25f" title="overload the PointerArray::add() method by call resize if the array is full (generate warning)..." alt="" coords="358,516,559,542"/><area shape="rect" id="node3" href="classparray_1_1PointerArray.html#a6d4347a899d2783d23775957ad71f743" title="replace the array with a new memory of the defined size. Possible old values are copied from start up..." alt="" coords="613,391,760,432"/><area shape="rect" id="node6" href="classdocs_1_1WebPage.html#ad2efbd306365a023f52c5c93caa4e638" title="returns the manager of the #contents array of this document. " alt="" coords="109,78,304,105"/><area shape="rect" id="node7" href="classdocs_1_1Document.html#a500da2818240e2b29c1e4510b8724f4f" title="returns the manager of the #keyWords array of this document. " alt="" coords="104,129,309,156"/><area shape="rect" id="node8" href="classdocs_1_1Document.html#a06b90f239984c69784c877d670943fb5" title="return the #title of this document " alt="" coords="122,180,291,206"/><area shape="rect" id="node9" href="main_8cpp.html#aa645d2537e6a806927c27a664653c0f3" title="function used to highlights debugging logs by printing a frame of &#39;#&#39;. " alt="" coords="174,230,239,257"/><area shape="rect" id="node10" href="classparray_1_1PointerArray.html#a13883fc7ef994a50a83ae3f9ddc4db27" title="replace the array by removing empty cell on tail (size will be equal to cnt). Based on resize()..." alt="" coords="389,115,528,156"/><area shape="rect" id="node11" href="classparray_1_1PointerArray.html#a13ae3b9b2118416351cc63bd456ecf73" title="remove an element from the array (based on find() and remove(int)). " alt="" coords="389,267,528,308"/><area shape="rect" id="node12" href="classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2" title="set the number of columns (#coloumnCnt) of this Spreadsheet. " alt="" coords="137,398,276,439"/><area shape="rect" id="node13" href="classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419" title="set a copy of the input #contents and overwrites the previous. " alt="" coords="109,464,304,490"/><area shape="rect" id="node14" href="classparray_1_1PointerArray.html#ae3fb455ddc80180a3a7b130cb2c4d903" title="set the size of a new empty array on memory and delete the previous. " alt="" coords="389,450,528,491"/><area shape="rect" id="node15" href="classdocs_1_1Document.html#afdf0fd42a3afe3c7c2523b3ee16d09e0" title="set a #title to this document. " alt="" coords="122,565,291,592"/><area shape="rect" id="node16" href="classparray_1_1StringPointerArray.html#abfac13570bec8c88311714d19ddea59b" title="static method to test the behavior of a PointerArray of strings. " alt="" coords="121,332,293,374"/><area shape="rect" id="node5" href="classparray_1_1PointerArray.html#ac676a9ef1cc04a9aab5f9b744142bf61" title="returns the actual size of the array. " alt="" coords="609,508,765,550"/><area shape="rect" id="node4" href="classparray_1_1PointerArray.html#ae080aeced3af072006e4a609fdadb838" title="add an element into the array. Returns false if the array is full " alt="" coords="814,398,981,425"/><area shape="rect" id="node17" href="classparray_1_1PointerArray.html#a2c61803a24765673a1f59ba194566946" title="delete the array and create a new memory location of the same size. " alt="" coords="389,332,528,374"/></map>
 </div>
 </p>
 
@@ -199,7 +220,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
-    <li class="footer">Generated on Tue Oct 18 2016 13:06:45 for DocumentClassHierarchy by
+    <li class="footer">Generated on Wed Oct 26 2016 16:07:32 for DocumentClassHierarchy by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

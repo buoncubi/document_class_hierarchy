@@ -32,7 +32,7 @@ namespace docs{
 
 	// ############################ DESTRUCTOR ############################
 	WebPage::~WebPage(){
-		std::cout << this << " -> " << typeId << " delete texts container.";
+		std::cout << this << " -> " << typeId << " delete key words container..." << std::endl << "\t\t...";
 		if( contents != 0)
 			delete contents;
 		contents = 0;

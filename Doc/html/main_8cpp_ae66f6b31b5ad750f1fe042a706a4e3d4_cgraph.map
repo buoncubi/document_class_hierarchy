@@ -1,21 +1,18 @@
 <map id="main" name="main">
-<area shape="rect" id="node2" href="$main_8cpp.html#aa645d2537e6a806927c27a664653c0f3" title="function used to highlights debugging logs by printing a frame of &#39;#&#39;. " alt="" coords="174,120,239,147"/>
-<area shape="rect" id="node3" href="$classparray_1_1StringPointerArray.html#abfac13570bec8c88311714d19ddea59b" title="static method to test the behavior of a PointerArray of strings. " alt="" coords="121,222,293,263"/>
-<area shape="rect" id="node4" href="$classparray_1_1StringPointerArray.html#a5b79fa79d5aa75cd4572e7b87f6da25f" title="overload the PointerArray::add() method by call resize if the array is full (generate warning)..." alt="" coords="358,19,559,45"/>
-<area shape="rect" id="node5" href="$classparray_1_1PointerArray.html#a6d4347a899d2783d23775957ad71f743" title="replace the array with a new memory of the defined size. Possible old values are copied from start up..." alt="" coords="613,70,760,111"/>
-<area shape="rect" id="node11" href="$classparray_1_1PointerArray.html#a13ae3b9b2118416351cc63bd456ecf73" title="remove an element from the array (based on find() and remove(int)). " alt="" coords="389,251,528,293"/>
-<area shape="rect" id="node12" href="$classparray_1_1PointerArray.html#ae3fb455ddc80180a3a7b130cb2c4d903" title="set the size of a new empty array on memory and delete the previous. " alt="" coords="389,317,528,358"/>
-<area shape="rect" id="node13" href="$classparray_1_1PointerArray.html#a13883fc7ef994a50a83ae3f9ddc4db27" title="replace the array by removing empty cell on tail (size will be equal to cnt). Based on resize()..." alt="" coords="389,382,528,423"/>
-<area shape="rect" id="node15" href="$classdocs_1_1Document.html#a500da2818240e2b29c1e4510b8724f4f" title="returns the manager of the keyWords array of this document. " alt="" coords="104,491,309,517"/>
-<area shape="rect" id="node16" href="$classdocs_1_1Document.html#afdf0fd42a3afe3c7c2523b3ee16d09e0" title="set a title to this document. " alt="" coords="122,541,291,568"/>
-<area shape="rect" id="node17" href="$classdocs_1_1Document.html#a06b90f239984c69784c877d670943fb5" title="return the title of this document " alt="" coords="122,592,291,619"/>
-<area shape="rect" id="node18" href="$classdocs_1_1WebPage.html#ad2efbd306365a023f52c5c93caa4e638" title="returns the manager of the contents array of this document. " alt="" coords="109,643,304,669"/>
-<area shape="rect" id="node19" href="$classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419" title="set a copy of the input contents and overwrites the previous. " alt="" coords="109,693,304,720"/>
-<area shape="rect" id="node20" href="$classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2" title="set the number of columns (coloumnCnt) of this Spreadsheet. " alt="" coords="137,745,276,786"/>
-<area shape="rect" id="node10" href="$classparray_1_1StringPointerArray.html#a17703cd98a2019970fccba1bc7e51c8e" title="prints a line to separe different tests used in tester() function " alt="" coords="373,121,545,162"/>
-<area shape="rect" id="node14" href="$classparray_1_1PointerArray.html#a2c61803a24765673a1f59ba194566946" title="delete the array and create a new memory location of the same size. " alt="" coords="389,186,528,227"/>
-<area shape="rect" id="node9" href="$classparray_1_1PointerArray.html#ac676a9ef1cc04a9aab5f9b744142bf61" title="returns the actual size of the array. " alt="" coords="609,5,765,46"/>
-<area shape="rect" id="node6" href="$classparray_1_1PointerArray.html#a3010540e156076377ffd4428b05e1ac2" title="make a new copy in memory (based on newSet()). " alt="" coords="828,5,967,46"/>
-<area shape="rect" id="node7" href="$classparray_1_1PointerArray.html#afc7385141e8217e1ebe3b2a3a3a40679" title="allocate a new memory of this object size. Delete old memory if is not invalidated. " alt="" coords="828,70,967,111"/>
-<area shape="rect" id="node8" href="$classparray_1_1PointerArray.html#ae080aeced3af072006e4a609fdadb838" title="add an element into the array. Returns false if the array is full " alt="" coords="814,136,981,163"/>
+<area shape="rect" id="node2" href="$classparray_1_1StringPointerArray.html#a5b79fa79d5aa75cd4572e7b87f6da25f" title="overload the PointerArray::add() method by call resize if the array is full (generate warning)..." alt="" coords="358,516,559,542"/>
+<area shape="rect" id="node3" href="$classparray_1_1PointerArray.html#a6d4347a899d2783d23775957ad71f743" title="replace the array with a new memory of the defined size. Possible old values are copied from start up..." alt="" coords="613,391,760,432"/>
+<area shape="rect" id="node6" href="$classdocs_1_1WebPage.html#ad2efbd306365a023f52c5c93caa4e638" title="returns the manager of the #contents array of this document. " alt="" coords="109,78,304,105"/>
+<area shape="rect" id="node7" href="$classdocs_1_1Document.html#a500da2818240e2b29c1e4510b8724f4f" title="returns the manager of the #keyWords array of this document. " alt="" coords="104,129,309,156"/>
+<area shape="rect" id="node8" href="$classdocs_1_1Document.html#a06b90f239984c69784c877d670943fb5" title="return the #title of this document " alt="" coords="122,180,291,206"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#aa645d2537e6a806927c27a664653c0f3" title="function used to highlights debugging logs by printing a frame of &#39;#&#39;. " alt="" coords="174,230,239,257"/>
+<area shape="rect" id="node10" href="$classparray_1_1PointerArray.html#a13883fc7ef994a50a83ae3f9ddc4db27" title="replace the array by removing empty cell on tail (size will be equal to cnt). Based on resize()..." alt="" coords="389,115,528,156"/>
+<area shape="rect" id="node11" href="$classparray_1_1PointerArray.html#a13ae3b9b2118416351cc63bd456ecf73" title="remove an element from the array (based on find() and remove(int)). " alt="" coords="389,267,528,308"/>
+<area shape="rect" id="node12" href="$classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2" title="set the number of columns (#coloumnCnt) of this Spreadsheet. " alt="" coords="137,398,276,439"/>
+<area shape="rect" id="node13" href="$classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419" title="set a copy of the input #contents and overwrites the previous. " alt="" coords="109,464,304,490"/>
+<area shape="rect" id="node14" href="$classparray_1_1PointerArray.html#ae3fb455ddc80180a3a7b130cb2c4d903" title="set the size of a new empty array on memory and delete the previous. " alt="" coords="389,450,528,491"/>
+<area shape="rect" id="node15" href="$classdocs_1_1Document.html#afdf0fd42a3afe3c7c2523b3ee16d09e0" title="set a #title to this document. " alt="" coords="122,565,291,592"/>
+<area shape="rect" id="node16" href="$classparray_1_1StringPointerArray.html#abfac13570bec8c88311714d19ddea59b" title="static method to test the behavior of a PointerArray of strings. " alt="" coords="121,332,293,374"/>
+<area shape="rect" id="node5" href="$classparray_1_1PointerArray.html#ac676a9ef1cc04a9aab5f9b744142bf61" title="returns the actual size of the array. " alt="" coords="609,508,765,550"/>
+<area shape="rect" id="node4" href="$classparray_1_1PointerArray.html#ae080aeced3af072006e4a609fdadb838" title="add an element into the array. Returns false if the array is full " alt="" coords="814,398,981,425"/>
+<area shape="rect" id="node17" href="$classparray_1_1PointerArray.html#a2c61803a24765673a1f59ba194566946" title="delete the array and create a new memory location of the same size. " alt="" coords="389,332,528,374"/>
 </map>

@@ -20,7 +20,5 @@ var classdocs_1_1Document =
     [ "operator!=", "classdocs_1_1Document.html#abda12a8e6c13277b760c0e40efa44695", null ],
     [ "operator<<", "classdocs_1_1Document.html#a801e6c851261e550881c632d31407c55", null ],
     [ "operator==", "classdocs_1_1Document.html#aba6a95005cddfc7e9b668de3b0160cc6", null ],
-    [ "keyWords", "classdocs_1_1Document.html#a7539ac1430ded1f3a15f2532de8f0381", null ],
-    [ "title", "classdocs_1_1Document.html#a419e4470c20e1bddd60448ba430f4738", null ],
     [ "typeId", "classdocs_1_1Document.html#ad5250ef4bd98928dfbe6243162536389", null ]
 ];

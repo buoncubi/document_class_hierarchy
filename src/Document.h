@@ -52,6 +52,18 @@ namespace docs{
 	/// The name of the Type.SPREADSHEET type values
 	const std::string TYPE_NAME_SPREADSHEET = "\"Spreadsheet\"";
 
+	/// the debugging string to be appended on log head by this Document
+	const std::string LOG_HEADER = " DocumenHierarchy: ";
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Test logs
+	const std::string LOG_HEADER_TEST = "\t[TEST] " + LOG_HEADER;
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Warning logs
+	const std::string LOG_HEADER_WARNING = "[WARNING] " + LOG_HEADER;
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Info logs
+	const std::string LOG_HEADER_INFO = "[INFO] " + LOG_HEADER;
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Error logs
+	const std::string LOG_HEADER_ERROR = "[ERROR] " + LOG_HEADER;
+
+
 	/// Instances of document identifier values.
 	enum Type {
 		DOCUMENT, 		///< only Document objects will have this Document#getType() value

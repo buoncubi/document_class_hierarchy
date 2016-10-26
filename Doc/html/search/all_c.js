@@ -1,11 +1,15 @@
 var searchData=
 [
-  ['pack',['pack',['../classparray_1_1PointerArray.html#a13883fc7ef994a50a83ae3f9ddc4db27',1,'parray::PointerArray']]],
-  ['parray',['parray',['../namespaceparray.html',1,'']]],
-  ['patch',['patch',['../namespacepatch.html',1,'']]],
-  ['pointerarray',['PointerArray',['../classparray_1_1PointerArray.html#ab506b284822d1e013813579e06893797',1,'parray::PointerArray::PointerArray()'],['../classparray_1_1PointerArray.html#a4e39d7adf15e94c02dfe2662c181f0c6',1,'parray::PointerArray::PointerArray(const int length)'],['../classparray_1_1PointerArray.html#ab763be75c142552337e545ca0a27d93e',1,'parray::PointerArray::PointerArray(const PointerArray&lt; T &gt; &amp;original)']]],
-  ['pointerarray',['PointerArray',['../classparray_1_1PointerArray.html',1,'parray']]],
-  ['pointerarray_2ecpp',['PointerArray.cpp',['../PointerArray_8cpp.html',1,'']]],
-  ['pointerarray_3c_20std_3a_3astring_20_3e',['PointerArray&lt; std::string &gt;',['../classparray_1_1PointerArray.html',1,'parray']]],
-  ['printtestdelitator',['printTestDelitator',['../classparray_1_1StringPointerArray.html#a17703cd98a2019970fccba1bc7e51c8e',1,'parray::StringPointerArray']]]
+  ['setcoloumncnt',['setColoumnCnt',['../classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2',1,'docs::Spreadsheet']]],
+  ['setcontents',['setContents',['../classdocs_1_1WebPage.html#a2e09e939689a61083a5037dcc7f84419',1,'docs::WebPage']]],
+  ['setkeywords',['setKeyWords',['../classdocs_1_1Document.html#a99cde56ac7b8b230184b938cf55ce17e',1,'docs::Document']]],
+  ['setrowcnt',['setRowCnt',['../classdocs_1_1Spreadsheet.html#a2178260b64460a010251eba24513bb9d',1,'docs::Spreadsheet']]],
+  ['setsize',['setSize',['../classparray_1_1PointerArray.html#ae3fb455ddc80180a3a7b130cb2c4d903',1,'parray::PointerArray']]],
+  ['settitle',['setTitle',['../classdocs_1_1Document.html#afdf0fd42a3afe3c7c2523b3ee16d09e0',1,'docs::Document']]],
+  ['seturl',['setUrl',['../classdocs_1_1WebPage.html#a46ae47ff938c8b9a4081c17b2c307ef9',1,'docs::WebPage']]],
+  ['spreadsheet',['Spreadsheet',['../classdocs_1_1Spreadsheet.html#ac6e95d685e342630144afaad04c99c74',1,'docs::Spreadsheet::Spreadsheet(int coloumnCnt=DEFAULT_SPREADSHEET_COLCNT, int rowCnt=DEFAULT_SPREADSHEET_ROWCNT, std::string title=DEFAULT_DOCUMENT_TITLE, int keyWordSize=DEFAULT_DOCUMENT_KWSIZE)'],['../classdocs_1_1Spreadsheet.html#a6dae1de9618f2e4226fde62477858e05',1,'docs::Spreadsheet::Spreadsheet(const parray::StringPointerArray &amp;kws, std::string title=DEFAULT_DOCUMENT_TITLE, int coloumnCnt=DEFAULT_SPREADSHEET_COLCNT, int rowCnt=DEFAULT_SPREADSHEET_ROWCNT)'],['../classdocs_1_1Spreadsheet.html#a7bbb06aa9261596202f71c65c5400ff2',1,'docs::Spreadsheet::Spreadsheet(const Spreadsheet &amp;original)'],['../namespacedocs.html#a150efca62822b8ab62a5afabe299bf75a7c469773c8012b650a4db4d9f46e343a',1,'docs::SPREADSHEET()']]],
+  ['spreadsheet',['Spreadsheet',['../classdocs_1_1Spreadsheet.html',1,'docs']]],
+  ['spreadsheet_2ecpp',['Spreadsheet.cpp',['../Spreadsheet_8cpp.html',1,'']]],
+  ['stringpointerarray',['StringPointerArray',['../classparray_1_1StringPointerArray.html',1,'parray']]],
+  ['stringpointerarray',['StringPointerArray',['../classparray_1_1StringPointerArray.html#a3dcc569f7833b31b26bb72570bdc7067',1,'parray::StringPointerArray::StringPointerArray()'],['../classparray_1_1StringPointerArray.html#ae31ac6c33c13c602d3cbee3ca4aed10c',1,'parray::StringPointerArray::StringPointerArray(const int length)'],['../classparray_1_1StringPointerArray.html#a6566d7032d0c519b440220df77651345',1,'parray::StringPointerArray::StringPointerArray(const StringPointerArray &amp;original)']]]
 ];

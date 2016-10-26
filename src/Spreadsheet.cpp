@@ -31,6 +31,7 @@ namespace docs{
 
 	// ########################### BASE INTERFACE #########################
 	void Spreadsheet::copy( const Spreadsheet& original){
+
 		Document::copy( original);
 		rowCnt = original.getRowCnt();
 		coloumnCnt = original.getColoumnCnt();

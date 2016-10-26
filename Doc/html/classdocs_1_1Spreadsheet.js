@@ -10,7 +10,5 @@ var classdocs_1_1Spreadsheet =
     [ "getRowCnt", "classdocs_1_1Spreadsheet.html#a25339a2bc1be68500a907969d15b02d0", null ],
     [ "setColoumnCnt", "classdocs_1_1Spreadsheet.html#a85e9d8dafdc6793560cb3f1cca41f8e2", null ],
     [ "setRowCnt", "classdocs_1_1Spreadsheet.html#a2178260b64460a010251eba24513bb9d", null ],
-    [ "toString", "classdocs_1_1Spreadsheet.html#ab288d28a2f204e28f0c5d7a097f43bfa", null ],
-    [ "coloumnCnt", "classdocs_1_1Spreadsheet.html#a8193931da11e83c62b3aa1c2177e9e33", null ],
-    [ "rowCnt", "classdocs_1_1Spreadsheet.html#a69756007b1fbe6b45d2f052af930d748", null ]
+    [ "toString", "classdocs_1_1Spreadsheet.html#ab288d28a2f204e28f0c5d7a097f43bfa", null ]
 ];

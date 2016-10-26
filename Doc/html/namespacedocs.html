@@ -30,6 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">DocumentClassHierarchy
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -185,6 +186,26 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedocs.html#a3f58481f03c01b3da04828585d14ff77">TYPE_NAME_SPREADSHEET</a> = &quot;\&quot;Spreadsheet\&quot;&quot;</td></tr>
 <tr class="memdesc:a3f58481f03c01b3da04828585d14ff77"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the Type.SPREADSHEET type values. <br/></td></tr>
 <tr class="separator:a3f58481f03c01b3da04828585d14ff77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a00c87ee0f345e683ff069a02063744"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a00c87ee0f345e683ff069a02063744"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedocs.html#a0a00c87ee0f345e683ff069a02063744">LOG_HEADER</a> = &quot; DocumenHierarchy: &quot;</td></tr>
+<tr class="memdesc:a0a00c87ee0f345e683ff069a02063744"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by this <a class="el" href="classdocs_1_1Document.html" title="This is the base class of the Document hierarchy. ">Document</a> <br/></td></tr>
+<tr class="separator:a0a00c87ee0f345e683ff069a02063744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef79f9b4462aa2823cf087845d6538ac"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aef79f9b4462aa2823cf087845d6538ac"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedocs.html#aef79f9b4462aa2823cf087845d6538ac">LOG_HEADER_TEST</a> = &quot;\t[TEST] &quot; + LOG_HEADER</td></tr>
+<tr class="memdesc:aef79f9b4462aa2823cf087845d6538ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by the StringPointerArray::tester() for Test logs <br/></td></tr>
+<tr class="separator:aef79f9b4462aa2823cf087845d6538ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b31c3722f8c95ab2077b81a482ed12f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b31c3722f8c95ab2077b81a482ed12f"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedocs.html#a2b31c3722f8c95ab2077b81a482ed12f">LOG_HEADER_WARNING</a> = &quot;[WARNING] &quot; + LOG_HEADER</td></tr>
+<tr class="memdesc:a2b31c3722f8c95ab2077b81a482ed12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by the StringPointerArray::tester() for Warning logs <br/></td></tr>
+<tr class="separator:a2b31c3722f8c95ab2077b81a482ed12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b1de40afeb89c26d19404f0535ca62b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6b1de40afeb89c26d19404f0535ca62b"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedocs.html#a6b1de40afeb89c26d19404f0535ca62b">LOG_HEADER_INFO</a> = &quot;[INFO] &quot; + LOG_HEADER</td></tr>
+<tr class="memdesc:a6b1de40afeb89c26d19404f0535ca62b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by the StringPointerArray::tester() for Info logs <br/></td></tr>
+<tr class="separator:a6b1de40afeb89c26d19404f0535ca62b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40d84f797e577f18ef9b303de5a409b8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40d84f797e577f18ef9b303de5a409b8"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacedocs.html#a40d84f797e577f18ef9b303de5a409b8">LOG_HEADER_ERROR</a> = &quot;[ERROR] &quot; + LOG_HEADER</td></tr>
+<tr class="memdesc:a40d84f797e577f18ef9b303de5a409b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the debugging string to be appended on log head by the StringPointerArray::tester() for Error logs <br/></td></tr>
+<tr class="separator:a40d84f797e577f18ef9b303de5a409b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This namespace is used to collect all the document hierarchy classes and types. </p>
@@ -211,6 +232,8 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <p>only <a class="el" href="classdocs_1_1Spreadsheet.html" title="This describes a spreadsheet as a Document extension. ">Spreadsheet</a> objects will have this <a class="el" href="classdocs_1_1Document.html#a5626bdb2863afb9c3dd363fc5cc1bbde" title="return the type identifier of this document assigned on custruction. ">Document::getType()</a> value </p>
 </td></tr>
 </table>
+
+<p>Definition at line <a class="el" href="Document_8h_source.html#l00068">68</a> of file <a class="el" href="Document_8h_source.html">Document.h</a>.</p>
 
 </div>
 </div>
@@ -239,6 +262,10 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
       </table>
 </div><div class="memdoc">
 <p>it returns '!c1.equals( c2)'. This method should not be implemented on derived classes. </p>
+
+<p>Definition at line <a class="el" href="Document_8cpp_source.html#l00088">88</a> of file <a class="el" href="Document_8cpp_source.html">Document.cpp</a>.</p>
+
+<p>References <a class="el" href="Document_8cpp_source.html#l00084">operator==()</a>.</p>
 
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
@@ -276,6 +303,10 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>it returns 'strm &lt;&lt; doc.toString()'. This method should not be implemented on derived classes. </p>
 
+<p>Definition at line <a class="el" href="Document_8cpp_source.html#l00061">61</a> of file <a class="el" href="Document_8cpp_source.html">Document.cpp</a>.</p>
+
+<p>References <a class="el" href="Document_8cpp_source.html#l00057">docs::Document::toString()</a>.</p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -312,6 +343,12 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>it returns 'c1.equals( c2)'. This method should not be implemented on derived classes. </p>
 
+<p>Definition at line <a class="el" href="Document_8cpp_source.html#l00084">84</a> of file <a class="el" href="Document_8cpp_source.html">Document.cpp</a>.</p>
+
+<p>References <a class="el" href="Document_8cpp_source.html#l00076">docs::Document::equals()</a>.</p>
+
+<p>Referenced by <a class="el" href="Document_8cpp_source.html#l00088">operator!=()</a>.</p>
+
 <p><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -329,7 +366,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacedocs.html">docs</a></li>
-    <li class="footer">Generated on Tue Oct 18 2016 13:06:45 for DocumentClassHierarchy by
+    <li class="footer">Generated on Wed Oct 26 2016 16:07:32 for DocumentClassHierarchy by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

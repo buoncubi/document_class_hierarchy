@@ -6,15 +6,6 @@
 This class describes a manager of a dynamic array of generic type T$\ast$.  
 
 
-
-
-Collaboration diagram for parray\-:\-:Pointer\-Array$<$ T $>$\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=208pt]{classparray_1_1PointerArray__coll__graph}
-\end{center}
-\end{figure}
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -26,7 +17,7 @@ Collaboration diagram for parray\-:\-:Pointer\-Array$<$ T $>$\-:\nopagebreak
 \begin{DoxyCompactList}\small\item\em create a new empty array of specified size \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1PointerArray_ab763be75c142552337e545ca0a27d93e}{\hyperlink{classparray_1_1PointerArray_ab763be75c142552337e545ca0a27d93e}{Pointer\-Array} (const \hyperlink{classparray_1_1PointerArray}{Pointer\-Array}$<$ T $>$ \&original)}\label{classparray_1_1PointerArray_ab763be75c142552337e545ca0a27d93e}
 
-\begin{DoxyCompactList}\small\item\em \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{copy()} constructors \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em \#copy() constructors \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1PointerArray_a3b59a3fe4f7e83d83231d9daf8210333}{virtual \hyperlink{classparray_1_1PointerArray_a3b59a3fe4f7e83d83231d9daf8210333}{$\sim$\-Pointer\-Array} ()}\label{classparray_1_1PointerArray_a3b59a3fe4f7e83d83231d9daf8210333}
 
 \begin{DoxyCompactList}\small\item\em destructors, invalidate counter, pointer and clear memory. Logs\-: \char`\"{}deleting\char`\"{}, for debugging purposes. \end{DoxyCompactList}\item 
@@ -76,37 +67,13 @@ const T \& \hyperlink{classparray_1_1PointerArray_aa009614c6819fe08b7eef78be4394
 \begin{DoxyCompactList}\small\item\em returns true if all the elements of this array are the only elements of the parameter. \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1PointerArray_acc9c164599807ed762727667f6b6bf13}{\hyperlink{classparray_1_1PointerArray}{Pointer\-Array}$<$ T $>$ \& \hyperlink{classparray_1_1PointerArray_acc9c164599807ed762727667f6b6bf13}{operator=} (const \hyperlink{classparray_1_1PointerArray}{Pointer\-Array}$<$ T $>$ \&new\-Copy)}\label{classparray_1_1PointerArray_acc9c164599807ed762727667f6b6bf13}
 
-\begin{DoxyCompactList}\small\item\em make a \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{copy()} of this array. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em make a \#copy() of this array. \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1PointerArray_adf7c87ef3e5b66d11137209d45701975}{virtual const bool \hyperlink{classparray_1_1PointerArray_adf7c87ef3e5b66d11137209d45701975}{is\-Empty} () const }\label{classparray_1_1PointerArray_adf7c87ef3e5b66d11137209d45701975}
 
 \begin{DoxyCompactList}\small\item\em returns true if there are no elements in the array. \end{DoxyCompactList}\item 
 \hypertarget{classparray_1_1PointerArray_ac1aa766707215ddeecbf23a0648644c5}{bool const \hyperlink{classparray_1_1PointerArray_ac1aa766707215ddeecbf23a0648644c5}{operator!} () const }\label{classparray_1_1PointerArray_ac1aa766707215ddeecbf23a0648644c5}
 
 \begin{DoxyCompactList}\small\item\em returns \hyperlink{classparray_1_1PointerArray_adf7c87ef3e5b66d11137209d45701975}{is\-Empty()}. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Private Member Functions}
-\begin{DoxyCompactItemize}
-\item 
-\hypertarget{classparray_1_1PointerArray_ac45bf71fe7c82789e7dd135aece4692a}{void \hyperlink{classparray_1_1PointerArray_ac45bf71fe7c82789e7dd135aece4692a}{init} (int length)}\label{classparray_1_1PointerArray_ac45bf71fe7c82789e7dd135aece4692a}
-
-\begin{DoxyCompactList}\small\item\em initialises a new array of given lenght (based on \hyperlink{classparray_1_1PointerArray_afc7385141e8217e1ebe3b2a3a3a40679}{new\-Set()}). \end{DoxyCompactList}\item 
-\hypertarget{classparray_1_1PointerArray_afc7385141e8217e1ebe3b2a3a3a40679}{void \hyperlink{classparray_1_1PointerArray_afc7385141e8217e1ebe3b2a3a3a40679}{new\-Set} ()}\label{classparray_1_1PointerArray_afc7385141e8217e1ebe3b2a3a3a40679}
-
-\begin{DoxyCompactList}\small\item\em allocate a new memory of this object size. Delete old memory if is not invalidated. \end{DoxyCompactList}\item 
-\hypertarget{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{virtual void \hyperlink{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}{copy} (const \hyperlink{classparray_1_1PointerArray}{Pointer\-Array}$<$ T $>$ \&original)}\label{classparray_1_1PointerArray_a3010540e156076377ffd4428b05e1ac2}
-
-\begin{DoxyCompactList}\small\item\em make a new copy in memory (based on \hyperlink{classparray_1_1PointerArray_afc7385141e8217e1ebe3b2a3a3a40679}{new\-Set()}). \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{Private Attributes}
-\begin{DoxyCompactItemize}
-\item 
-\hypertarget{classparray_1_1PointerArray_a3152cfa7b5f1249c42fd8b9d9a17c380}{int \hyperlink{classparray_1_1PointerArray_a3152cfa7b5f1249c42fd8b9d9a17c380}{size}}\label{classparray_1_1PointerArray_a3152cfa7b5f1249c42fd8b9d9a17c380}
-
-\begin{DoxyCompactList}\small\item\em the size of the dynamic array \end{DoxyCompactList}\item 
-\hypertarget{classparray_1_1PointerArray_aaf856470924385ecbab1c075552e81a8}{int \hyperlink{classparray_1_1PointerArray_aaf856470924385ecbab1c075552e81a8}{cnt}}\label{classparray_1_1PointerArray_aaf856470924385ecbab1c075552e81a8}
-
-\begin{DoxyCompactList}\small\item\em the number of elements in the array \end{DoxyCompactList}\item 
-\hypertarget{classparray_1_1PointerArray_a058d80ea7a679e6299126eaa2f7b3f82}{T $\ast$ \hyperlink{classparray_1_1PointerArray_a058d80ea7a679e6299126eaa2f7b3f82}{set}}\label{classparray_1_1PointerArray_a058d80ea7a679e6299126eaa2f7b3f82}
-
-\begin{DoxyCompactList}\small\item\em the head of the array \end{DoxyCompactList}\end{DoxyCompactItemize}
 \subsection*{Friends}
 \begin{DoxyCompactItemize}
 \item 
@@ -128,6 +95,10 @@ This class describes a manager of a dynamic array of generic type T$\ast$.
 
 It manage manipulation, creation, copy and destruction, as well as basic operator overloading. In details, the array is specified by\-: a pointer to the head, a size integer and a cnt meaning the number of elements currently in the array. 
 
+Definition at line 54 of file Pointer\-Array.\-cpp.
+
+
+
 \subsection{Member Function Documentation}
 \hypertarget{classparray_1_1PointerArray_aa009614c6819fe08b7eef78be4394dbc}{\index{parray\-::\-Pointer\-Array@{parray\-::\-Pointer\-Array}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
 \index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!parray::PointerArray@{parray\-::\-Pointer\-Array}}
@@ -137,6 +108,10 @@ It manage manipulation, creation, copy and destruction, as well as basic operato
 \end{DoxyParamCaption}
 ) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classparray_1_1PointerArray_aa009614c6819fe08b7eef78be4394dbc}
 returns \hyperlink{classparray_1_1PointerArray_a97dbb10226a33da7823685fafe609194}{get()}. 
+
+Definition at line 107 of file Pointer\-Array.\-cpp.
+
+
 
 The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
 \item 

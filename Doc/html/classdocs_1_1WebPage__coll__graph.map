@@ -1,6 +1,4 @@
 <map id="docs::WebPage" name="docs::WebPage">
-<area shape="rect" id="node2" href="$classdocs_1_1Document.html" title="This is the base class of the Document hierarchy. " alt="" coords="170,189,288,216"/>
-<area shape="rect" id="node3" href="$classparray_1_1StringPointerArray.html" title="It implements a PointerArray with a string parameter (T). " alt="" coords="5,99,176,125"/>
-<area shape="rect" id="node4" href="$classparray_1_1PointerArray.html" title="parray::PointerArray\l\&lt; std::string \&gt;" alt="" coords="21,6,160,47"/>
-<area shape="rect" id="node5" href="$classdocs_1_1DocType.html" title="The class containing the definition of Document Types names. " alt="" coords="201,99,311,125"/>
+<area shape="rect" id="node2" href="$classdocs_1_1Document.html" title="This is the base class of the Document hierarchy. " alt="" coords="5,96,123,123"/>
+<area shape="rect" id="node3" href="$classdocs_1_1DocType.html" title="The class containing the definition of Document Types names. " alt="" coords="9,5,119,32"/>
 </map>

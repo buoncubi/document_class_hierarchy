@@ -32,10 +32,16 @@ namespace patch{
 /// it specify the dynamic array manager for a generic data T and a std#string specialisation.
 namespace parray{
 
-	/// the debugging string to be appended on log head by this manager
-	const std::string LOG_HEADER_INFO = " PointerArray: ";
-	/// the debugging string to be appended on log head by the StringPointerArray#tester()
-	const std::string LOG_HEADER_TEST = "\t[TEST] " + LOG_HEADER_INFO;
+	/// the debugging string to be appended on log head by this list manager
+	const std::string LOG_HEADER = " PointerArray: ";
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Test logs
+	const std::string LOG_HEADER_TEST = "\t[TEST] " + LOG_HEADER;
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Warning logs
+	const std::string LOG_HEADER_WARNING = "[WARNING] " + LOG_HEADER;
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Info logs
+	const std::string LOG_HEADER_INFO = "[INFO] " + LOG_HEADER;
+	/// the debugging string to be appended on log head by the StringPointerArray#tester() for Error logs
+	const std::string LOG_HEADER_ERROR = "[ERROR] " + LOG_HEADER;
 
 
 	/**
@@ -49,24 +55,24 @@ namespace parray{
 		public:
 			/// does not initialise the set and invalidates the counter (generates also warning log to advertise the call of #setSize())
 			PointerArray(){
-				std::cout << "[WARNING]" << LOG_HEADER_INFO << "Construct empty object. First of all, call setSize(..)" << std::endl;
+				std::cout << LOG_HEADER_WARNING << "Construct empty object. First of all, call setSize(..)" << std::endl;
 				set = 0;
 				size = -1;
 				cnt = -1;
 			}
 			/// create a new empty array of specified size
 			PointerArray( const int length){
-				std::cout << "[INFO]" << LOG_HEADER_INFO << "Construct a new array with size: " << length << std::endl;
+				std::cout << LOG_HEADER_INFO << "Construct a new array with size: " << length << std::endl;
 				init( length);
 			}
 			/// #copy() constructors
 			PointerArray( const PointerArray<T>& original){
-				std::cout << "[INFO]" << LOG_HEADER_INFO << "Construct a copy of: " << original << std::endl;
+				std::cout << LOG_HEADER_INFO << "Construct a copy of: " << original << std::endl;
 				copy( original);
 			}
 			/// destructors, invalidate counter, pointer and clear memory. Logs:  "deleting", for debugging purposes.
 			virtual ~PointerArray(){
-				std::cout << "[INFO]" << LOG_HEADER_INFO << "deleting " << *this << std::endl;
+				std::cout << LOG_HEADER_INFO << "deleting " << *this << std::endl;
 				if( set != 0){
 					delete [] set;
 					set = 0;
@@ -138,7 +144,7 @@ namespace parray{
 					cnt -= 1;
 					return true;
 				}
-				std::cerr << LOG_HEADER_INFO << "array out of index, cannot remove the (" << idx << ")-th element." << std::endl;
+				std::cerr << LOG_HEADER_ERROR << "array out of index, cannot remove the (" << idx << ")-th element." << std::endl;
 				return false;
 			}
 
@@ -243,7 +249,7 @@ namespace parray{
 					size = length;
 					set = 0;
 					newSet();
-				} else std::cerr << LOG_HEADER_INFO << "cannot instantiate an array with negative length" << std::endl;
+				} else std::cerr << LOG_HEADER_ERROR << "cannot instantiate an array with negative length" << std::endl;
 			}
 
 			/// allocate a new memory of this object size. Delete old memory if is not invalidated.
@@ -287,7 +293,7 @@ namespace parray{
 			virtual bool add( std::string toAdd){
 				if( ! PointerArray< std::string>::add( toAdd)){
 					resize( getSize() + 1);
-					std::cout << "[WARNING] StringPointerArray: array resized in order to add a new element." << std::endl;
+					std::cout << LOG_HEADER_WARNING << " array resized in order to add a new element." << std::endl;
 					add( toAdd);
 				}
 				return true;
